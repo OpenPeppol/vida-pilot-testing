@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<pxs:TaxData xmlns:pxs="urn:peppol:schema:vida-taxdata:1.0" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+<?xml version='1.0' encoding='utf-8'?>
+<pxs:TaxData xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:pxs="urn:peppol:schema:vida-taxdata:1.0" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
   <cbc:CustomizationID>urn:peppol:taxdata:vida-1</cbc:CustomizationID>
   <cbc:ProfileID>urn:peppol:taxreporting</cbc:ProfileID>
-  <cbc:UUID>7895f7d9-50aa-419f-b5a8-6fa594139c11</cbc:UUID>
-  <cbc:IssueDate>2026-09-04</cbc:IssueDate>
-  <cbc:IssueTime>23:47:17.637+02:00</cbc:IssueTime>
+  <cbc:UUID>386b03dd-f6f7-4994-af12-3698d5c7c715</cbc:UUID>
+  <cbc:IssueDate>2026-09-15</cbc:IssueDate>
+  <cbc:IssueTime>12:24:25.026+02:00</cbc:IssueTime>
   <pxs:TaxDataTypeCode>S</pxs:TaxDataTypeCode>
   <pxs:DocumentScope>IC</pxs:DocumentScope>
   <pxs:ReporterRole>C3</pxs:ReporterRole>
@@ -24,11 +24,11 @@
     </cac:PartyIdentification>
   </pxs:ReportersRepresentative>
   <pxs:ReportedTransaction>
-    <pxs:ReportedDocument>
+    <pxs:TransmissionUUID>d93c1531-b72b-4ba6-af2e-d2ddf7ae01fe</pxs:TransmissionUUID><pxs:ReportedDocument>
       <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
       <cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
       <cbc:ID>NW-HP-001 - NO-IE</cbc:ID>
-      <cbc:UUID>2f8a5326-1dbc-589f-943b-db96534055a2</cbc:UUID>
+      <cbc:UUID>fe1408dc-6c5a-5900-a2fe-99570a4be342</cbc:UUID>
       <cbc:IssueDate>2026-02-10</cbc:IssueDate>
       <pxs:DocumentTypeCode>380</pxs:DocumentTypeCode>
       <cbc:Note>FICTITIOUS INVOICE - DO NOT PAY - DO NOT USE IN TAX RETURNS!
@@ -79,6 +79,8 @@ As such, the seller and buyer are located in two different EU member states.</cb
           <cac:TaxCategory>
             <cbc:ID>G</cbc:ID>
             <cbc:Percent>0</cbc:Percent>
+            <cbc:TaxExemptionReasonCode>VATEX-EU-G</cbc:TaxExemptionReasonCode>
+            <cbc:TaxExemptionReason>Import into EU</cbc:TaxExemptionReason>
             <cac:TaxScheme>
               <cbc:ID>VAT</cbc:ID>
             </cac:TaxScheme>

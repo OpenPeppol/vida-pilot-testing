@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <pxs:TaxData xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:pxs="urn:peppol:schema:vida-taxdata:1.0" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
   <cbc:CustomizationID>urn:peppol:taxdata:vida-1</cbc:CustomizationID>
   <cbc:ProfileID>urn:peppol:taxreporting</cbc:ProfileID>
-  <cbc:UUID>cd5ed27b-30f6-4a6e-9ce5-32b3a12d54fb</cbc:UUID>
-  <cbc:IssueDate>2026-09-04</cbc:IssueDate>
-  <cbc:IssueTime>23:47:41.725+02:00</cbc:IssueTime>
+  <cbc:UUID>328671f3-0422-48b7-93a5-961d14e3eb97</cbc:UUID>
+  <cbc:IssueDate>2026-09-15</cbc:IssueDate>
+  <cbc:IssueTime>12:24:49.536+02:00</cbc:IssueTime>
   <pxs:TaxDataTypeCode>S</pxs:TaxDataTypeCode>
   <pxs:DocumentScope>IC</pxs:DocumentScope>
   <pxs:ReporterRole>C3</pxs:ReporterRole>
@@ -24,11 +24,11 @@
     </cac:PartyIdentification>
   </pxs:ReportersRepresentative>
   <pxs:ReportedTransaction>
-    <pxs:ReportedDocument>
+    <pxs:TransmissionUUID>82312065-613a-4a54-85ae-2ec3585d9f7b</pxs:TransmissionUUID><pxs:ReportedDocument>
       <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
       <cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
       <cbc:ID>NW-HP-002 - BE-DK</cbc:ID>
-      <cbc:UUID>55ccd721-d0e9-5163-bdbe-ead040c1e08e</cbc:UUID>
+      <cbc:UUID>eb336eeb-2e76-55a6-a5f5-c7e371823ff2</cbc:UUID>
       <cbc:IssueDate>2026-02-10</cbc:IssueDate>
       <pxs:DocumentTypeCode>380</pxs:DocumentTypeCode>
       <cbc:Note>FICTITIOUS INVOICE - DO NOT PAY - DO NOT USE IN TAX RETURNS!
@@ -79,6 +79,8 @@ As such, the seller and buyer are located in two different EU member states.</cb
           <cac:TaxCategory>
             <cbc:ID>K</cbc:ID>
             <cbc:Percent>0</cbc:Percent>
+            <cbc:TaxExemptionReasonCode>VATEX-EU-IC</cbc:TaxExemptionReasonCode>
+            <cbc:TaxExemptionReason>Intra-community supply of services under reverse charge following Art. 196 of Directive 2006/112/EC</cbc:TaxExemptionReason>
             <cac:TaxScheme>
               <cbc:ID>VAT</cbc:ID>
             </cac:TaxScheme>

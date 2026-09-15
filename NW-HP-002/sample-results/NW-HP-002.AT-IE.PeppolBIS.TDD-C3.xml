@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<pxs:TaxData xmlns:pxs="urn:peppol:schema:vida-taxdata:1.0" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+<?xml version='1.0' encoding='utf-8'?>
+<pxs:TaxData xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:pxs="urn:peppol:schema:vida-taxdata:1.0" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
   <cbc:CustomizationID>urn:peppol:taxdata:vida-1</cbc:CustomizationID>
   <cbc:ProfileID>urn:peppol:taxreporting</cbc:ProfileID>
-  <cbc:UUID>4ddd4211-42b9-4616-b9fb-23613fc3db3c</cbc:UUID>
-  <cbc:IssueDate>2026-09-04</cbc:IssueDate>
-  <cbc:IssueTime>23:47:35.93+02:00</cbc:IssueTime>
+  <cbc:UUID>a7b3666d-83da-4ef9-9865-df3388051ad0</cbc:UUID>
+  <cbc:IssueDate>2026-09-15</cbc:IssueDate>
+  <cbc:IssueTime>12:24:44.072+02:00</cbc:IssueTime>
   <pxs:TaxDataTypeCode>S</pxs:TaxDataTypeCode>
   <pxs:DocumentScope>IC</pxs:DocumentScope>
   <pxs:ReporterRole>C3</pxs:ReporterRole>
@@ -24,11 +24,11 @@
     </cac:PartyIdentification>
   </pxs:ReportersRepresentative>
   <pxs:ReportedTransaction>
-    <pxs:ReportedDocument>
+    <pxs:TransmissionUUID>492ce8d4-54da-497f-a952-1847acd27974</pxs:TransmissionUUID><pxs:ReportedDocument>
       <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
       <cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
       <cbc:ID>NW-HP-002 - AT-IE</cbc:ID>
-      <cbc:UUID>3523a1e2-a2b8-5747-8ba1-0ee56003329a</cbc:UUID>
+      <cbc:UUID>29dcc68d-7ad5-52d7-9795-a120923bb74d</cbc:UUID>
       <cbc:IssueDate>2026-02-10</cbc:IssueDate>
       <pxs:DocumentTypeCode>380</pxs:DocumentTypeCode>
       <cbc:Note>FICTITIOUS INVOICE - DO NOT PAY - DO NOT USE IN TAX RETURNS!
@@ -79,6 +79,8 @@ As such, the seller and buyer are located in two different EU member states.</cb
           <cac:TaxCategory>
             <cbc:ID>K</cbc:ID>
             <cbc:Percent>0</cbc:Percent>
+            <cbc:TaxExemptionReasonCode>VATEX-EU-IC</cbc:TaxExemptionReasonCode>
+            <cbc:TaxExemptionReason>Intra-community supply of services under reverse charge following Art. 196 of Directive 2006/112/EC</cbc:TaxExemptionReason>
             <cac:TaxScheme>
               <cbc:ID>VAT</cbc:ID>
             </cac:TaxScheme>
