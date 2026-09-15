@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rsm:CrossIndustryInvoice xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100" xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100" xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100" xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100">
+	<rsm:ExchangedDocumentContext>
+		<ram:BusinessProcessSpecifiedDocumentContextParameter>
+			<ram:ID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</ram:ID>
+		</ram:BusinessProcessSpecifiedDocumentContextParameter>
+		<ram:GuidelineSpecifiedDocumentContextParameter>
+			<ram:ID>urn:cen.eu:en16931:2017</ram:ID>
+		</ram:GuidelineSpecifiedDocumentContextParameter>
+	</rsm:ExchangedDocumentContext>
+	<rsm:ExchangedDocument>
+		<ram:ID>NW-HP-007 - DK-SE</ram:ID>
+		<ram:TypeCode>380</ram:TypeCode>
+		<ram:IssueDateTime>
+			<udt:DateTimeString format="102">20260210</udt:DateTimeString>
+		</ram:IssueDateTime>
+		<ram:IncludedNote>
+			<ram:Content>FICTITIOUS INVOICE - DO NOT PAY - DO NOT USE IN TAX RETURNS!
+This is a generic sample invoice to cover a "regular" invoicing use case in ViDA.
+As such, the seller and buyer are located in two different EU member states.
+This invoice is marked to generate minimum TDDs only: ##TDD:MINIMUM##</ram:Content>
+		</ram:IncludedNote>
+	</rsm:ExchangedDocument>
+	<rsm:SupplyChainTradeTransaction>
+		<ram:IncludedSupplyChainTradeLineItem>
+			<ram:AssociatedDocumentLineDocument>
+				<ram:LineID>1</ram:LineID>
+			</ram:AssociatedDocumentLineDocument>
+			<ram:SpecifiedTradeProduct>
+				<ram:SellerAssignedID>GG-100124</ram:SellerAssignedID>
+				<ram:BuyerAssignedID>Buyer SKU not known</ram:BuyerAssignedID>
+				<ram:Name>Great Good (exempt of VAT for IC supply-Code K)</ram:Name>
+				<ram:Description>This Great Good is invoiced with a 0% VAT rate and "K" tax code to indicate use of the ICS tax exemption</ram:Description>
+			</ram:SpecifiedTradeProduct>
+			<ram:SpecifiedLineTradeAgreement>
+				<ram:NetPriceProductTradePrice>
+					<ram:ChargeAmount>752.00</ram:ChargeAmount>
+					<ram:BasisQuantity unitCode="H87">1</ram:BasisQuantity>
+				</ram:NetPriceProductTradePrice>
+			</ram:SpecifiedLineTradeAgreement>
+			<ram:SpecifiedLineTradeDelivery>
+				<ram:BilledQuantity unitCode="H87">7</ram:BilledQuantity>
+			</ram:SpecifiedLineTradeDelivery>
+			<ram:SpecifiedLineTradeSettlement>
+				<ram:ApplicableTradeTax>
+					<ram:TypeCode>VAT</ram:TypeCode>
+					<ram:ExemptionReason>VAT exempt intra-community supply (Article 138 Directive 2006/112/EC)</ram:ExemptionReason>
+					<ram:CategoryCode>K</ram:CategoryCode>
+					<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
+				</ram:ApplicableTradeTax>
+				<ram:SpecifiedTradeSettlementLineMonetarySummation>
+					<ram:LineTotalAmount>5264.00</ram:LineTotalAmount>
+				</ram:SpecifiedTradeSettlementLineMonetarySummation>
+			</ram:SpecifiedLineTradeSettlement>
+		</ram:IncludedSupplyChainTradeLineItem>
+		<ram:IncludedSupplyChainTradeLineItem>
+			<ram:AssociatedDocumentLineDocument>
+				<ram:LineID>2</ram:LineID>
+			</ram:AssociatedDocumentLineDocument>
+			<ram:SpecifiedTradeProduct>
+				<ram:SellerAssignedID>GG-100993</ram:SellerAssignedID>
+				<ram:BuyerAssignedID>Buyer SKU not known</ram:BuyerAssignedID>
+				<ram:Name>Another Great Good (exempt of VAT for IC supply-Code K)</ram:Name>
+				<ram:Description>Another Great Good, invoiced with a 0% VAT rate and "K" tax code to indicate use of the ICS tax exemption</ram:Description>
+			</ram:SpecifiedTradeProduct>
+			<ram:SpecifiedLineTradeAgreement>
+				<ram:NetPriceProductTradePrice>
+					<ram:ChargeAmount>807.00</ram:ChargeAmount>
+					<ram:BasisQuantity unitCode="H87">1</ram:BasisQuantity>
+				</ram:NetPriceProductTradePrice>
+			</ram:SpecifiedLineTradeAgreement>
+			<ram:SpecifiedLineTradeDelivery>
+				<ram:BilledQuantity unitCode="H87">5</ram:BilledQuantity>
+			</ram:SpecifiedLineTradeDelivery>
+			<ram:SpecifiedLineTradeSettlement>
+				<ram:ApplicableTradeTax>
+					<ram:TypeCode>VAT</ram:TypeCode>
+					<ram:ExemptionReason>VAT exempt intra-community supply (Article 138 Directive 2006/112/EC)</ram:ExemptionReason>
+					<ram:CategoryCode>K</ram:CategoryCode>
+					<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
+				</ram:ApplicableTradeTax>
+				<ram:SpecifiedTradeSettlementLineMonetarySummation>
+					<ram:LineTotalAmount>4035.00</ram:LineTotalAmount>
+				</ram:SpecifiedTradeSettlementLineMonetarySummation>
+			</ram:SpecifiedLineTradeSettlement>
+		</ram:IncludedSupplyChainTradeLineItem>
+		<ram:ApplicableHeaderTradeAgreement>
+			<ram:BuyerReference>your buyer reference</ram:BuyerReference>
+			<ram:SellerTradeParty>
+				<ram:ID>9876-555555</ram:ID>
+				<ram:Name>Danmark Salg A/S</ram:Name>
+				<ram:SpecifiedLegalOrganization>
+					<ram:ID schemeID="0184">87654321</ram:ID>
+					<ram:TradingBusinessName>Danmark Salg</ram:TradingBusinessName>
+				</ram:SpecifiedLegalOrganization>
+				<ram:DefinedTradeContact>
+					<ram:PersonName>Søren Nielsen</ram:PersonName>
+					<ram:TelephoneUniversalCommunication>
+						<ram:CompleteNumber>+45 33 12 34 56</ram:CompleteNumber>
+					</ram:TelephoneUniversalCommunication>
+					<ram:EmailURIUniversalCommunication>
+						<ram:URIID>soeren.nielsen@danmark-salg.dk</ram:URIID>
+					</ram:EmailURIUniversalCommunication>
+				</ram:DefinedTradeContact>
+				<ram:PostalTradeAddress>
+					<ram:PostcodeCode>1620</ram:PostcodeCode>
+					<ram:LineOne>Vesterbrogade 4</ram:LineOne>
+					<ram:CityName>København V</ram:CityName>
+					<ram:CountryID>DK</ram:CountryID>
+				</ram:PostalTradeAddress>
+				<ram:URIUniversalCommunication>
+					<ram:URIID schemeID="9913">001109-vidapilot.DK87654321</ram:URIID>
+				</ram:URIUniversalCommunication>
+				<ram:SpecifiedTaxRegistration>
+					<ram:ID schemeID="VA">DK87654321</ram:ID>
+				</ram:SpecifiedTaxRegistration>
+			</ram:SellerTradeParty>
+			<ram:BuyerTradeParty>
+				<ram:Name>Köpare Sverige AB</ram:Name>
+				<ram:SpecifiedLegalOrganization>
+					<ram:TradingBusinessName>Köpare Sverige</ram:TradingBusinessName>
+				</ram:SpecifiedLegalOrganization>
+				<ram:DefinedTradeContact>
+					<ram:PersonName>Erik Lindström</ram:PersonName>
+					<ram:TelephoneUniversalCommunication>
+						<ram:CompleteNumber>+46 8 12345678</ram:CompleteNumber>
+					</ram:TelephoneUniversalCommunication>
+					<ram:EmailURIUniversalCommunication>
+						<ram:URIID>e.lindstrom@kopare-sverige.se</ram:URIID>
+					</ram:EmailURIUniversalCommunication>
+				</ram:DefinedTradeContact>
+				<ram:PostalTradeAddress>
+					<ram:PostcodeCode>111 51</ram:PostcodeCode>
+					<ram:LineOne>Drottninggatan 30</ram:LineOne>
+					<ram:CityName>Stockholm</ram:CityName>
+					<ram:CountryID>SE</ram:CountryID>
+				</ram:PostalTradeAddress>
+				<ram:URIUniversalCommunication>
+					<ram:URIID schemeID="9913">001110-vidapilot.SE553456789101</ram:URIID>
+				</ram:URIUniversalCommunication>
+				<ram:SpecifiedTaxRegistration>
+					<ram:ID schemeID="VA">SE553456789101</ram:ID>
+				</ram:SpecifiedTaxRegistration>
+			</ram:BuyerTradeParty>
+			<ram:SellerOrderReferencedDocument>
+				<ram:IssuerAssignedID>Order #456789</ram:IssuerAssignedID>
+			</ram:SellerOrderReferencedDocument>
+			<ram:BuyerOrderReferencedDocument>
+				<ram:IssuerAssignedID>PO-54321</ram:IssuerAssignedID>
+			</ram:BuyerOrderReferencedDocument>
+			<ram:ContractReferencedDocument>
+				<ram:IssuerAssignedID>Contract ABC</ram:IssuerAssignedID>
+			</ram:ContractReferencedDocument>
+			<ram:SpecifiedProcuringProject>
+				<ram:ID>Project #12345</ram:ID>
+				<ram:Name>?</ram:Name>
+			</ram:SpecifiedProcuringProject>
+		</ram:ApplicableHeaderTradeAgreement>
+		<ram:ApplicableHeaderTradeDelivery>
+			<ram:ShipToTradeParty>
+				<ram:Name>Köpare Sverige AB (Delivery to buyer main address - country BT-80 must be specified for ICS)</ram:Name>
+				<ram:PostalTradeAddress>
+					<ram:PostcodeCode>111 51</ram:PostcodeCode>
+					<ram:LineOne>Drottninggatan 30</ram:LineOne>
+					<ram:CityName>Stockholm</ram:CityName>
+					<ram:CountryID>SE</ram:CountryID>
+				</ram:PostalTradeAddress>
+			</ram:ShipToTradeParty>
+			<ram:ActualDeliverySupplyChainEvent>
+				<ram:OccurrenceDateTime>
+					<udt:DateTimeString format="102">20260131</udt:DateTimeString>
+				</ram:OccurrenceDateTime>
+			</ram:ActualDeliverySupplyChainEvent>
+		</ram:ApplicableHeaderTradeDelivery>
+		<ram:ApplicableHeaderTradeSettlement>
+			<ram:InvoiceCurrencyCode>DKK</ram:InvoiceCurrencyCode>
+			<ram:SpecifiedTradeSettlementPaymentMeans>
+				<ram:TypeCode>58</ram:TypeCode>
+				<ram:Information>SEPA credit transfer</ram:Information>
+				<ram:PayeePartyCreditorFinancialAccount>
+					<ram:IBANID>DK5000400440116243</ram:IBANID>
+					<ram:AccountName>Danmark Salg A/S</ram:AccountName>
+				</ram:PayeePartyCreditorFinancialAccount>
+			</ram:SpecifiedTradeSettlementPaymentMeans>
+			<ram:ApplicableTradeTax>
+				<ram:CalculatedAmount>0.00</ram:CalculatedAmount>
+				<ram:TypeCode>VAT</ram:TypeCode>
+				<ram:ExemptionReason>VAT exempt intra-community supply (Article 138 Directive 2006/112/EC)</ram:ExemptionReason>
+				<ram:BasisAmount>9299.00</ram:BasisAmount>
+				<ram:CategoryCode>K</ram:CategoryCode>
+				<ram:ExemptionReasonCode>VATEX-EU-IC</ram:ExemptionReasonCode>
+				<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
+			</ram:ApplicableTradeTax>
+			<ram:SpecifiedTradePaymentTerms>
+				<ram:Description>Please remit your payment of 9.299,00 kr. before 12.03.2026.</ram:Description>
+				<ram:DueDateDateTime>
+					<udt:DateTimeString format="102">20260312</udt:DateTimeString>
+				</ram:DueDateDateTime>
+			</ram:SpecifiedTradePaymentTerms>
+			<ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+				<ram:LineTotalAmount>9299.00</ram:LineTotalAmount>
+				<ram:TaxBasisTotalAmount>9299.00</ram:TaxBasisTotalAmount>
+				<ram:TaxTotalAmount currencyID="DKK">0.00</ram:TaxTotalAmount>
+				<ram:GrandTotalAmount>9299.00</ram:GrandTotalAmount>
+				<ram:DuePayableAmount>9299.00</ram:DuePayableAmount>
+			</ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+		</ram:ApplicableHeaderTradeSettlement>
+	</rsm:SupplyChainTradeTransaction>
+</rsm:CrossIndustryInvoice>
