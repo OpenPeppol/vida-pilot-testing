@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rsm:CrossIndustryInvoice xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100" xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100" xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100" xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100">
+	<rsm:ExchangedDocumentContext>
+		<ram:BusinessProcessSpecifiedDocumentContextParameter>
+			<ram:ID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</ram:ID>
+		</ram:BusinessProcessSpecifiedDocumentContextParameter>
+		<ram:GuidelineSpecifiedDocumentContextParameter>
+			<ram:ID>urn:cen.eu:en16931:2017</ram:ID>
+		</ram:GuidelineSpecifiedDocumentContextParameter>
+	</rsm:ExchangedDocumentContext>
+	<rsm:ExchangedDocument>
+		<ram:ID>NW-HP-007 - NO-BE</ram:ID>
+		<ram:TypeCode>380</ram:TypeCode>
+		<ram:IssueDateTime>
+			<udt:DateTimeString format="102">20260210</udt:DateTimeString>
+		</ram:IssueDateTime>
+		<ram:IncludedNote>
+			<ram:Content>FICTITIOUS INVOICE - DO NOT PAY - DO NOT USE IN TAX RETURNS!
+This is a generic sample invoice to cover a "regular" invoicing use case in ViDA.
+As such, the seller and buyer are located in two different EU member states.
+This invoice is marked to generate minimum TDDs only: ##TDD:MINIMUM##</ram:Content>
+		</ram:IncludedNote>
+	</rsm:ExchangedDocument>
+	<rsm:SupplyChainTradeTransaction>
+		<ram:IncludedSupplyChainTradeLineItem>
+			<ram:AssociatedDocumentLineDocument>
+				<ram:LineID>1</ram:LineID>
+			</ram:AssociatedDocumentLineDocument>
+			<ram:SpecifiedTradeProduct>
+				<ram:SellerAssignedID>GG-100124</ram:SellerAssignedID>
+				<ram:BuyerAssignedID>Buyer SKU not known</ram:BuyerAssignedID>
+				<ram:Name>Great Good (import from third country-Code G)</ram:Name>
+				<ram:Description>This Great Good is invoiced with a 0% VAT rate and "G" tax code to indicate use of "import from third country"</ram:Description>
+			</ram:SpecifiedTradeProduct>
+			<ram:SpecifiedLineTradeAgreement>
+				<ram:NetPriceProductTradePrice>
+					<ram:ChargeAmount>1012.00</ram:ChargeAmount>
+					<ram:BasisQuantity unitCode="H87">1</ram:BasisQuantity>
+				</ram:NetPriceProductTradePrice>
+			</ram:SpecifiedLineTradeAgreement>
+			<ram:SpecifiedLineTradeDelivery>
+				<ram:BilledQuantity unitCode="H87">10</ram:BilledQuantity>
+			</ram:SpecifiedLineTradeDelivery>
+			<ram:SpecifiedLineTradeSettlement>
+				<ram:ApplicableTradeTax>
+					<ram:TypeCode>VAT</ram:TypeCode>
+					<ram:ExemptionReason>Import into EU</ram:ExemptionReason>
+					<ram:CategoryCode>G</ram:CategoryCode>
+					<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
+				</ram:ApplicableTradeTax>
+				<ram:SpecifiedTradeSettlementLineMonetarySummation>
+					<ram:LineTotalAmount>10120.00</ram:LineTotalAmount>
+				</ram:SpecifiedTradeSettlementLineMonetarySummation>
+			</ram:SpecifiedLineTradeSettlement>
+		</ram:IncludedSupplyChainTradeLineItem>
+		<ram:IncludedSupplyChainTradeLineItem>
+			<ram:AssociatedDocumentLineDocument>
+				<ram:LineID>2</ram:LineID>
+			</ram:AssociatedDocumentLineDocument>
+			<ram:SpecifiedTradeProduct>
+				<ram:SellerAssignedID>GG-100993</ram:SellerAssignedID>
+				<ram:BuyerAssignedID>Buyer SKU not known</ram:BuyerAssignedID>
+				<ram:Name>Another Great Good (import from third country-Code G)</ram:Name>
+				<ram:Description>Another Great Good is invoiced with a 0% VAT rate and "G" tax code to indicate use of "import from third country"</ram:Description>
+			</ram:SpecifiedTradeProduct>
+			<ram:SpecifiedLineTradeAgreement>
+				<ram:NetPriceProductTradePrice>
+					<ram:ChargeAmount>878.00</ram:ChargeAmount>
+					<ram:BasisQuantity unitCode="H87">1</ram:BasisQuantity>
+				</ram:NetPriceProductTradePrice>
+			</ram:SpecifiedLineTradeAgreement>
+			<ram:SpecifiedLineTradeDelivery>
+				<ram:BilledQuantity unitCode="H87">9</ram:BilledQuantity>
+			</ram:SpecifiedLineTradeDelivery>
+			<ram:SpecifiedLineTradeSettlement>
+				<ram:ApplicableTradeTax>
+					<ram:TypeCode>VAT</ram:TypeCode>
+					<ram:ExemptionReason>Import into EU</ram:ExemptionReason>
+					<ram:CategoryCode>G</ram:CategoryCode>
+					<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
+				</ram:ApplicableTradeTax>
+				<ram:SpecifiedTradeSettlementLineMonetarySummation>
+					<ram:LineTotalAmount>7902.00</ram:LineTotalAmount>
+				</ram:SpecifiedTradeSettlementLineMonetarySummation>
+			</ram:SpecifiedLineTradeSettlement>
+		</ram:IncludedSupplyChainTradeLineItem>
+		<ram:ApplicableHeaderTradeAgreement>
+			<ram:BuyerReference>your buyer reference</ram:BuyerReference>
+			<ram:SellerTradeParty>
+				<ram:ID>9876-444444</ram:ID>
+				<ram:Name>Norge Salg AS</ram:Name>
+				<ram:SpecifiedLegalOrganization>
+					<ram:TradingBusinessName>Norge Salg</ram:TradingBusinessName>
+				</ram:SpecifiedLegalOrganization>
+				<ram:DefinedTradeContact>
+					<ram:PersonName>Lars Hansen</ram:PersonName>
+					<ram:TelephoneUniversalCommunication>
+						<ram:CompleteNumber>+358 9 555 1234</ram:CompleteNumber>
+					</ram:TelephoneUniversalCommunication>
+					<ram:EmailURIUniversalCommunication>
+						<ram:URIID>lars.hansen@norge-salg.no</ram:URIID>
+					</ram:EmailURIUniversalCommunication>
+				</ram:DefinedTradeContact>
+				<ram:PostalTradeAddress>
+					<ram:PostcodeCode>0154</ram:PostcodeCode>
+					<ram:LineOne>Karl Johans gate 15</ram:LineOne>
+					<ram:CityName>Oslo</ram:CityName>
+					<ram:CountryID>NO</ram:CountryID>
+				</ram:PostalTradeAddress>
+				<ram:URIUniversalCommunication>
+					<ram:URIID schemeID="9913">001109-vidapilot.NO123456785MVA</ram:URIID>
+				</ram:URIUniversalCommunication>
+				<ram:SpecifiedTaxRegistration>
+					<ram:ID schemeID="VA">NO123456785MVA</ram:ID>
+				</ram:SpecifiedTaxRegistration>
+				<ram:SpecifiedTaxRegistration>
+					<ram:ID schemeID="TAX">Foretaksregisteret</ram:ID>
+				</ram:SpecifiedTaxRegistration>
+			</ram:SellerTradeParty>
+			<ram:BuyerTradeParty>
+				<ram:Name>Belga Aankoper / Belga Acheteur BV/SRL</ram:Name>
+				<ram:SpecifiedLegalOrganization>
+					<ram:ID schemeID="0208">0765432146</ram:ID>
+					<ram:TradingBusinessName>Belga Aankoper / Belga Acheteur</ram:TradingBusinessName>
+				</ram:SpecifiedLegalOrganization>
+				<ram:DefinedTradeContact>
+					<ram:PersonName>Pierre Dupont</ram:PersonName>
+					<ram:TelephoneUniversalCommunication>
+						<ram:CompleteNumber>+32 2 444 56 78</ram:CompleteNumber>
+					</ram:TelephoneUniversalCommunication>
+					<ram:EmailURIUniversalCommunication>
+						<ram:URIID>pierre.dupont@belga-acheteur.be</ram:URIID>
+					</ram:EmailURIUniversalCommunication>
+				</ram:DefinedTradeContact>
+				<ram:PostalTradeAddress>
+					<ram:PostcodeCode>1050</ram:PostcodeCode>
+					<ram:LineOne>Avenue Louise / Louizalaan 105</ram:LineOne>
+					<ram:CityName>Bruxelles</ram:CityName>
+					<ram:CountryID>BE</ram:CountryID>
+				</ram:PostalTradeAddress>
+				<ram:URIUniversalCommunication>
+					<ram:URIID schemeID="9913">001110-vidapilot.BE0765432146</ram:URIID>
+				</ram:URIUniversalCommunication>
+				<ram:SpecifiedTaxRegistration>
+					<ram:ID schemeID="VA">BE0765432146</ram:ID>
+				</ram:SpecifiedTaxRegistration>
+			</ram:BuyerTradeParty>
+			<ram:SellerOrderReferencedDocument>
+				<ram:IssuerAssignedID>Order #456789</ram:IssuerAssignedID>
+			</ram:SellerOrderReferencedDocument>
+			<ram:BuyerOrderReferencedDocument>
+				<ram:IssuerAssignedID>PO-54321</ram:IssuerAssignedID>
+			</ram:BuyerOrderReferencedDocument>
+			<ram:ContractReferencedDocument>
+				<ram:IssuerAssignedID>Contract ABC</ram:IssuerAssignedID>
+			</ram:ContractReferencedDocument>
+			<ram:SpecifiedProcuringProject>
+				<ram:ID>Project #12345</ram:ID>
+				<ram:Name>?</ram:Name>
+			</ram:SpecifiedProcuringProject>
+		</ram:ApplicableHeaderTradeAgreement>
+		<ram:ApplicableHeaderTradeDelivery>
+			<ram:ShipToTradeParty>
+				<ram:Name>Belga Aankoper / Belga Acheteur BV/SRL (Delivery to buyer main address - country BT-80 must be specified for ICS)</ram:Name>
+				<ram:PostalTradeAddress>
+					<ram:PostcodeCode>1050</ram:PostcodeCode>
+					<ram:LineOne>Avenue Louise / Louizalaan 105</ram:LineOne>
+					<ram:CityName>Bruxelles</ram:CityName>
+					<ram:CountryID>BE</ram:CountryID>
+				</ram:PostalTradeAddress>
+			</ram:ShipToTradeParty>
+			<ram:ActualDeliverySupplyChainEvent>
+				<ram:OccurrenceDateTime>
+					<udt:DateTimeString format="102">20260131</udt:DateTimeString>
+				</ram:OccurrenceDateTime>
+			</ram:ActualDeliverySupplyChainEvent>
+		</ram:ApplicableHeaderTradeDelivery>
+		<ram:ApplicableHeaderTradeSettlement>
+			<ram:InvoiceCurrencyCode>NOK</ram:InvoiceCurrencyCode>
+			<ram:SpecifiedTradeSettlementPaymentMeans>
+				<ram:TypeCode>58</ram:TypeCode>
+				<ram:Information>SEPA credit transfer</ram:Information>
+				<ram:PayeePartyCreditorFinancialAccount>
+					<ram:IBANID>NO5015032080119</ram:IBANID>
+					<ram:AccountName>Norge Salg AS</ram:AccountName>
+				</ram:PayeePartyCreditorFinancialAccount>
+			</ram:SpecifiedTradeSettlementPaymentMeans>
+			<ram:ApplicableTradeTax>
+				<ram:CalculatedAmount>0.00</ram:CalculatedAmount>
+				<ram:TypeCode>VAT</ram:TypeCode>
+				<ram:ExemptionReason>Import into EU</ram:ExemptionReason>
+				<ram:BasisAmount>18022.00</ram:BasisAmount>
+				<ram:CategoryCode>G</ram:CategoryCode>
+				<ram:ExemptionReasonCode>VATEX-EU-G</ram:ExemptionReasonCode>
+				<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
+			</ram:ApplicableTradeTax>
+			<ram:SpecifiedTradePaymentTerms>
+				<ram:Description>Please remit your payment of 18.022,00 kr before 12.03.2026.</ram:Description>
+				<ram:DueDateDateTime>
+					<udt:DateTimeString format="102">20260312</udt:DateTimeString>
+				</ram:DueDateDateTime>
+			</ram:SpecifiedTradePaymentTerms>
+			<ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+				<ram:LineTotalAmount>18022.00</ram:LineTotalAmount>
+				<ram:TaxBasisTotalAmount>18022.00</ram:TaxBasisTotalAmount>
+				<ram:TaxTotalAmount currencyID="NOK">0.00</ram:TaxTotalAmount>
+				<ram:GrandTotalAmount>18022.00</ram:GrandTotalAmount>
+				<ram:DuePayableAmount>18022.00</ram:DuePayableAmount>
+			</ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+		</ram:ApplicableHeaderTradeSettlement>
+	</rsm:SupplyChainTradeTransaction>
+</rsm:CrossIndustryInvoice>
