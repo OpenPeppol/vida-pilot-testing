@@ -16,6 +16,12 @@ in `testbed-reports/`:
 - C5 receiver: `0242:000778-vida` (SPIS)
 - Certificate: PEPPOL ACCESS POINT TEST CA - G3
 
+## Test run results
+
+| Run | Scenario | Date | Outcome |
+|---|---|---|---|
+| `ARR-20260910-1310-03` | NW-HP-001 FI-AT (both corners Arratech) | 2026-09-10 | TDDs accepted by C5(A) and C5(B) with AP; same invoice UUID on both; C3→C2 MLS is AB. See `NW-HP-001/results/`. |
+
 ## Contact
 
 Arratech — agenttwo@arratech.com
