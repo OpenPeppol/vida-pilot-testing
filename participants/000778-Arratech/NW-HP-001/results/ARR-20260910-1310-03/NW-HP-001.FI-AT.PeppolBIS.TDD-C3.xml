@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><sbdh:StandardBusinessDocument xmlns:sbdh="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader"><sbdh:StandardBusinessDocumentHeader><sbdh:HeaderVersion>1.0</sbdh:HeaderVersion><sbdh:Sender><sbdh:Identifier Authority="iso6523-actorid-upis">9913:000778-vidapilot.atu12345679</sbdh:Identifier></sbdh:Sender><sbdh:Receiver><sbdh:Identifier Authority="iso6523-actorid-upis">0242:001067-vidapilot.tax_at</sbdh:Identifier></sbdh:Receiver><sbdh:DocumentIdentification><sbdh:Standard>urn:peppol:schema:vida-taxdata:1.0</sbdh:Standard><sbdh:TypeVersion>1.0</sbdh:TypeVersion><sbdh:InstanceIdentifier>034cfd34-836d-4bd8-9490-46ee392107a5</sbdh:InstanceIdentifier><sbdh:Type>TaxData</sbdh:Type><sbdh:CreationDateAndTime>2026-09-10T13:10:59.41226717Z</sbdh:CreationDateAndTime></sbdh:DocumentIdentification><sbdh:BusinessScope><sbdh:Scope><sbdh:Type>DOCUMENTID</sbdh:Type><sbdh:InstanceIdentifier>urn:peppol:schema:vida-taxdata:1.0::TaxData##urn:peppol:taxdata:vida-1::1.0</sbdh:InstanceIdentifier><sbdh:Identifier>busdox-docid-qns</sbdh:Identifier></sbdh:Scope><sbdh:Scope><sbdh:Type>PROCESSID</sbdh:Type><sbdh:InstanceIdentifier>urn:peppol:taxreporting</sbdh:InstanceIdentifier><sbdh:Identifier>cenbii-procid-ubl</sbdh:Identifier></sbdh:Scope><sbdh:Scope><sbdh:Type>COUNTRY_C1</sbdh:Type><sbdh:InstanceIdentifier>FI</sbdh:InstanceIdentifier></sbdh:Scope><sbdh:Scope><sbdh:Type>MLS_TO</sbdh:Type><sbdh:InstanceIdentifier>0242:000778</sbdh:InstanceIdentifier><sbdh:Identifier>iso6523-actorid-upis</sbdh:Identifier></sbdh:Scope><sbdh:Scope><sbdh:Type>MLS_TYPE</sbdh:Type><sbdh:InstanceIdentifier>ALWAYS_SEND</sbdh:InstanceIdentifier></sbdh:Scope></sbdh:BusinessScope></sbdh:StandardBusinessDocumentHeader><ns2:TaxData xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ns2="urn:peppol:schema:vida-taxdata:1.0" xmlns:ns3="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+    <CustomizationID>urn:peppol:taxdata:vida-1</CustomizationID>
+    <ProfileID>urn:peppol:taxreporting</ProfileID>
+    <UUID>b9c9cede-4307-494c-b7c1-bf0eb69d9f2f</UUID>
+    <IssueDate>2026-09-10</IssueDate>
+    <IssueTime>13:10:59.37Z</IssueTime>
+    <ns2:TaxDataTypeCode>S</ns2:TaxDataTypeCode>
+    <ns2:DocumentScope>IC</ns2:DocumentScope>
+    <ns2:ReporterRole>C3</ns2:ReporterRole>
+    <ns2:TaxAuthority>
+        <ID>AT</ID>
+        <Name>Finanzamt Österreich</Name>
+    </ns2:TaxAuthority>
+    <ns2:ReportingParty>
+        <EndpointID schemeID="9913">000778-vidapilot.atu12345679</EndpointID>
+    </ns2:ReportingParty>
+    <ns2:ReceivingParty>
+        <EndpointID schemeID="0242">001067-vidapilot.tax_at</EndpointID>
+    </ns2:ReceivingParty>
+    <ns2:ReportersRepresentative>
+        <ns3:PartyIdentification>
+            <ID schemeID="0242">000778</ID>
+        </ns3:PartyIdentification>
+    </ns2:ReportersRepresentative>
+    <ns2:ReportedTransaction>
+        <ns2:ReportedDocument>
+            <CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</CustomizationID>
+            <ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</ProfileID>
+            <ID>NW-HP-001 - FI-AT - ARR-20260910-1310-03</ID>
+            <UUID>fe987ebb-094d-5ca3-98cf-ce7294e17041</UUID>
+            <IssueDate>2026-02-10</IssueDate>
+            <ns2:DocumentTypeCode>380</ns2:DocumentTypeCode>
+            <Note>FICTITIOUS INVOICE - DO NOT PAY - DO NOT USE IN TAX RETURNS!
+This is a generic sample invoice to cover a "regular" invoicing use case in ViDA.
+As such, the seller and buyer are located in two different EU member states.</Note>
+            <DocumentCurrencyCode>EUR</DocumentCurrencyCode>
+            <ns3:AccountingSupplierParty>
+                <ns3:Party>
+                    <ns3:PostalAddress>
+                        <ns3:Country>
+                            <IdentificationCode>FI</IdentificationCode>
+                        </ns3:Country>
+                    </ns3:PostalAddress>
+                    <ns3:PartyTaxScheme>
+                        <CompanyID>FI12345678</CompanyID>
+                        <ns3:TaxScheme>
+                            <ID>VAT</ID>
+                        </ns3:TaxScheme>
+                    </ns3:PartyTaxScheme>
+                </ns3:Party>
+            </ns3:AccountingSupplierParty>
+            <ns3:AccountingCustomerParty>
+                <ns3:Party>
+                    <ns3:PostalAddress>
+                        <ns3:Country>
+                            <IdentificationCode>AT</IdentificationCode>
+                        </ns3:Country>
+                    </ns3:PostalAddress>
+                    <ns3:PartyTaxScheme>
+                        <CompanyID>ATU12345679</CompanyID>
+                        <ns3:TaxScheme>
+                            <ID>VAT</ID>
+                        </ns3:TaxScheme>
+                    </ns3:PartyTaxScheme>
+                </ns3:Party>
+            </ns3:AccountingCustomerParty>
+            <ns3:Delivery>
+                <ActualDeliveryDate>2026-01-31</ActualDeliveryDate>
+            </ns3:Delivery>
+            <ns3:TaxTotal>
+                <TaxAmount currencyID="EUR">0</TaxAmount>
+                <ns3:TaxSubtotal>
+                    <TaxableAmount currencyID="EUR">915</TaxableAmount>
+                    <TaxAmount currencyID="EUR">0</TaxAmount>
+                    <ns3:TaxCategory>
+                        <ID>K</ID>
+                        <Percent>0</Percent>
+                        <TaxExemptionReasonCode>VATEX-EU-IC</TaxExemptionReasonCode>
+                        <ns3:TaxScheme>
+                            <ID>VAT</ID>
+                        </ns3:TaxScheme>
+                    </ns3:TaxCategory>
+                </ns3:TaxSubtotal>
+            </ns3:TaxTotal>
+            <ns2:MonetaryTotal>
+                <LineExtensionAmount currencyID="EUR">915</LineExtensionAmount>
+                <TaxExclusiveAmount currencyID="EUR">915</TaxExclusiveAmount>
+                <TaxInclusiveAmount currencyID="EUR">915</TaxInclusiveAmount>
+                <PayableAmount currencyID="EUR">915</PayableAmount>
+            </ns2:MonetaryTotal>
+            <ns2:DocumentLine>
+                <ID>1</ID>
+                <InvoicedQuantity unitCode="H87">3</InvoicedQuantity>
+                <LineExtensionAmount currencyID="EUR">306</LineExtensionAmount>
+                <ns3:Item>
+                    <Name>Great Good (exempt of VAT for IC supply-Code K)</Name>
+                    <ns3:ClassifiedTaxCategory>
+                        <ID>K</ID>
+                        <Percent>0</Percent>
+                        <ns3:TaxScheme>
+                            <ID>VAT</ID>
+                        </ns3:TaxScheme>
+                    </ns3:ClassifiedTaxCategory>
+                </ns3:Item>
+                <ns3:Price>
+                    <PriceAmount currencyID="EUR">102</PriceAmount>
+                </ns3:Price>
+            </ns2:DocumentLine>
+            <ns2:DocumentLine>
+                <ID>2</ID>
+                <InvoicedQuantity unitCode="H87">7</InvoicedQuantity>
+                <LineExtensionAmount currencyID="EUR">609</LineExtensionAmount>
+                <ns3:Item>
+                    <Name>Another Great Good (exempt of VAT for IC supply-Code K)</Name>
+                    <ns3:ClassifiedTaxCategory>
+                        <ID>K</ID>
+                        <Percent>0</Percent>
+                        <ns3:TaxScheme>
+                            <ID>VAT</ID>
+                        </ns3:TaxScheme>
+                    </ns3:ClassifiedTaxCategory>
+                </ns3:Item>
+                <ns3:Price>
+                    <PriceAmount currencyID="EUR">87</PriceAmount>
+                </ns3:Price>
+            </ns2:DocumentLine>
+        </ns2:ReportedDocument>
+    </ns2:ReportedTransaction>
+</ns2:TaxData></sbdh:StandardBusinessDocument>
