@@ -48,7 +48,9 @@ The 99 failures are **not** document failures. Every one of them was built and s
 
 Spread evenly across scenarios: 12 + 12 per scenario for the four large ones, 2 (AT) and 1 (BE) for NW-HP-002-RC.
 
-Evidence that this is environmental rather than ours:
+**Both endpoints recovered on 2026-09-23.** A retest the following morning — four exchanges into and out of each — delivered 4/4 to Austria and 4/4 to Belgium, all completed. Austria's SMP publishes complete signed metadata for the ViDA TDD document type naming `https://peppol-vida-pilot.bmf.gv.at/as4`, and that endpoint's TLS chain verifies cleanly. So the failures below were a transient outage at both, now over.
+
+Evidence that this was environmental rather than ours:
 
 * The same build delivered to both endpoints on 2026-09-18 (AT 50/50, BE 49/49 completed).
 * DK, FI, IE, NO and SE all completed in this very run, from the same code and the same access point.
