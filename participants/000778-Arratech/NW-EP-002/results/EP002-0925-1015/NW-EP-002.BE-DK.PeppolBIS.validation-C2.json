@@ -1,0 +1,38 @@
+{
+    "runtime": 30,
+    "sections": [
+        {
+            "configuration": "header",
+            "assertions": []
+        },
+        {
+            "configuration": "schema",
+            "assertions": []
+        },
+        {
+            "configuration": "en16931",
+            "assertions": [
+                {
+                    "identifier": "BR-S-01",
+                    "flag": "FATAL",
+                    "text": "[BR-S-01]-An Invoice that contains an Invoice line (BG-25), a Document level allowance (BG-20) or a Document level charge (BG-21) where the VAT category code (BT-151, BT-95 or BT-102) is \"Standard rated\" shall contain in the VAT breakdown (BG-23) at least one VAT category code (BT-118) equal with \"Standard rated\"."
+                },
+                {
+                    "identifier": "BR-IC-08",
+                    "flag": "FATAL",
+                    "text": "[BR-IC-08]-In a VAT breakdown (BG-23) where the VAT category code (BT-118) is \"Intra-community supply\" the VAT category taxable amount (BT-116) shall equal the sum of Invoice line net amounts (BT-131) minus the sum of Document level allowance amounts (BT-92) plus the sum of Document level charge amounts (BT-99) where the VAT category codes (BT-151, BT-95, BT-102) are \"Intra-community supply\"."
+                },
+                {
+                    "identifier": "BR-IC-05",
+                    "flag": "FATAL",
+                    "text": "[BR-IC-05]-In an Invoice line (BG-25) where the Invoiced item VAT category code (BT-151) is \"Intracommunity supply\" the Invoiced item VAT rate (BT-152) shall be 0 (zero)."
+                }
+            ]
+        },
+        {
+            "configuration": "profile",
+            "assertions": []
+        }
+    ],
+    "status": "ERROR"
+}
