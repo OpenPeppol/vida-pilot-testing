@@ -6,7 +6,7 @@ The scenario files use **Tax Category ID: `AE`**, defined as "Reverse Charge - C
 
 
 > [!IMPORTANT]
-> Note that this usage deviates from the [Technical Guidance document on Tax Codes for Electronic Invoicing](https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/467108974/Registry+of+supporting+artefacts+to+implement+EN16931%0B#RegistryofsupportingartefactstoimplementEN16931-TechnicalGuidancedocumentonTaxCodesforeInvoicing), which recommends using `AE` for *domestic* reverse charge transactions only, and `K` for any intra-community supply of goods or services.
+> Note that this usage deviates from the [Technical Guidance document on Tax Codes for Electronic Invoicing](https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/467108974/Registry+of+supporting+artefacts+to+implement+EN16931#RegistryofsupportingartefactstoimplementEN16931-TechnicalGuidancedocumentonTaxCodesforeInvoicing), which recommends using `AE` for *domestic* reverse charge transactions only, and `K` for any intra-community supply of goods or services.
 
 `AA-BB` in the filename indicates the two tax jurisdictions of the seller and buyer, respectively.
 
