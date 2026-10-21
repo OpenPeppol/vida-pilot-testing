@@ -1,6 +1,7 @@
 # NW-HP-002
 
-File `NW-HP-002.AA-BB.PeppolBIS.xml` implements a testing scenario for a **Reverse Charge** transaction of services, where the VAT rate indicated is `0%` because the tax responsibility is shifted to the buyer.
+File `NW-HP-002.AA-BB.PeppolBIS.xml` implements a testing scenario for a **Reverse Charge** transaction of services, where the VAT rate indicated is `0%` because the tax responsibility is shifted to the buyer.  
+The scenario files use **Tax Category ID: `K`** following the [Technical Guidance document on Tax Codes for Electronic Invoicing](https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/467108974/Registry+of+supporting+artefacts+to+implement+EN16931%0B#RegistryofsupportingartefactstoimplementEN16931-TechnicalGuidancedocumentonTaxCodesforeInvoicing)
 
 `AA-BB` in the filename indicates the two tax jurisdictions of the seller and buyer, respectively.
 
@@ -20,7 +21,7 @@ The document uses the Peppol BIS Billing 3.0 profile.
 *   **Context:** The parties are registered in different EU member states, and the invoice covers services where the reverse charge mechanism applies.
 
 ### VAT Character of Line Items
-The invoice contains two line items, both characterized by a **0% VAT rate** using the specific tax category **"AE"**:
+The invoice contains two line items, both characterized by a **0% VAT rate** using the specific tax category **"K"**:
 *   **Line Item 1:** 16 units of "Super Service" at 124 EUR each (Total: 1984 EUR).
 *   **Line Item 2:** 32 units of "More Super Service" at 124 EUR each (Total: 3968 EUR).
 

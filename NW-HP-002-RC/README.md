@@ -1,6 +1,12 @@
-# NW-HP-002
+# NW-HP-002-RC
 
 File `NW-HP-002-RC.AA-BB.PeppolBIS.xml` implements a testing scenario for a **Reverse Charge** transaction of services, where the VAT rate indicated is `0%` because the tax responsibility is shifted to the buyer.
+
+The scenario files use **Tax Category ID: `AE`**, defined as "Reverse Charge - Code specifying that the standard VAT rate is levied from the invoicee".
+
+
+> [!IMPORTANT]
+> Note that this usage deviates from the [Technical Guidance document on Tax Codes for Electronic Invoicing](https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/467108974/Registry+of+supporting+artefacts+to+implement+EN16931%0B#RegistryofsupportingartefactstoimplementEN16931-TechnicalGuidancedocumentonTaxCodesforeInvoicing), which recommends using `AE` for *domestic* reverse charge transactions only, and `K` for any intra-community supply of goods or services.
 
 `AA-BB` in the filename indicates the two tax jurisdictions of the seller and buyer, respectively.
 
