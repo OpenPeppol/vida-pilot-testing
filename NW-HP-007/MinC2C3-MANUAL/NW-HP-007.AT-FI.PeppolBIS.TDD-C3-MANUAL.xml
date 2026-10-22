@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pxs:TaxData xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:pxs="urn:peppol:schema:vida-taxdata:1.0" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+  <cbc:CustomizationID>urn:peppol:taxdata:vida-1</cbc:CustomizationID>
+  <cbc:ProfileID>urn:peppol:taxreporting</cbc:ProfileID>
+  <cbc:UUID>9978d709-519f-47d2-8585-6d7efd82ca50</cbc:UUID>
+  <cbc:IssueDate>2026-09-15</cbc:IssueDate>
+  <cbc:IssueTime>12:24:18.201+02:00</cbc:IssueTime>
+  <pxs:TaxDataTypeCode>S</pxs:TaxDataTypeCode>
+  <pxs:DocumentScope>IC</pxs:DocumentScope>
+  <pxs:ReporterRole>C3</pxs:ReporterRole>
+  <pxs:TaxAuthority>
+    <cbc:ID>FI</cbc:ID>
+<!--     <cbc:Name>Verohallinto / Skatteförvaltningen</cbc:Name> -->         <!-- TDT-011 - Tax Authority Name is optional -->
+  </pxs:TaxAuthority>
+  <pxs:ReportingParty>
+    <cbc:EndpointID schemeID="9913">001110-vidapilot.fi12345671</cbc:EndpointID>
+  </pxs:ReportingParty>
+  <pxs:ReceivingParty>
+    <cbc:EndpointID schemeID="0242">001111-vidapilot.tax_fi</cbc:EndpointID>
+  </pxs:ReceivingParty>
+  <pxs:ReportersRepresentative>
+    <cac:PartyIdentification>
+      <cbc:ID schemeID="0242">001110</cbc:ID>
+    </cac:PartyIdentification>
+  </pxs:ReportersRepresentative>
+  <pxs:ReportedTransaction>
+    <pxs:TransmissionUUID>714ba786-908e-4b5d-a1f6-34090d2395c1</pxs:TransmissionUUID><pxs:ReportedDocument>
+      <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+      <cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
+      <cbc:ID>NW-HP-007 - AT-FI - C2C3-Min-MANUAL</cbc:ID>
+      <cbc:UUID>7984593d-fd4a-5987-a50f-078c36f21074</cbc:UUID>
+      <cbc:IssueDate>2026-02-10</cbc:IssueDate>
+      <pxs:DocumentTypeCode>380</pxs:DocumentTypeCode>
+<!--  <cbc:Note>FICTITIOUS INVOICE - DO NOT PAY - DO NOT USE IN TAX RETURNS!
+This is a generic sample invoice to cover a "regular" invoicing use case in ViDA.
+As such, the seller and buyer are located in two different EU member states.</cbc:Note> -->        <!-- BT-21 Note is optional -->
+      <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+      <cac:AccountingSupplierParty>
+        <cac:Party>
+<!--           <cac:PostalAddress>
+            <cac:Country>
+              <cbc:IdentificationCode>AT</cbc:IdentificationCode>   <!- - BT-40 - Seller_country_code - ->
+            </cac:Country>
+          </cac:PostalAddress> -->                   <!-- All postal address information is optional -->
+          <cac:PartyTaxScheme>
+            <cbc:CompanyID>ATU99887766</cbc:CompanyID>
+<!--             <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme> -->                     <!-- no VAT information from Seller -->
+          </cac:PartyTaxScheme>
+        </cac:Party>
+      </cac:AccountingSupplierParty>
+      <cac:AccountingCustomerParty>
+        <cac:Party>
+<!--           <cac:PostalAddress>
+            <cac:Country>
+              <cbc:IdentificationCode>FI</cbc:IdentificationCode>   <!- - BT-55 - Buyer_country_code - ->
+            </cac:Country>
+          </cac:PostalAddress> -->                   <!-- All postal address information is optional -->
+          <cac:PartyTaxScheme>
+            <cbc:CompanyID>FI12345671</cbc:CompanyID>
+<!--             <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme> -->                     <!-- no VAT information from Seller -->
+          </cac:PartyTaxScheme>
+<!--           <cac:PartyLegalEntity>
+            <cbc:RegistrationName>Ostaja Finland Oy</cbc:RegistrationName>
+          </cac:PartyLegalEntity> -->                <!-- BT-44 - Buyer_name -->
+        </cac:Party>
+      </cac:AccountingCustomerParty>
+      <cac:Delivery>
+        <cbc:ActualDeliveryDate>2026-01-31</cbc:ActualDeliveryDate>           <!-- BT-072 - Actual_delivery_date -->
+      </cac:Delivery>
+      <cac:TaxTotal>
+        <cbc:TaxAmount currencyID="EUR">0</cbc:TaxAmount>.                    <!-- BT-110 - Invoice_total_VAT_amount - C3-only -->
+        <cac:TaxSubtotal>
+          <cbc:TaxableAmount currencyID="EUR">915</cbc:TaxableAmount>
+          <cbc:TaxAmount currencyID="EUR">0</cbc:TaxAmount>                   <!-- BT-117 - VAT_category_tax_amount  - C3-only -->
+          <cac:TaxCategory>
+            <cbc:ID>K</cbc:ID>
+            <cbc:Percent>0</cbc:Percent>                                      <!-- BT-119 - VAT_category_rate - C3-only -->
+            <cbc:TaxExemptionReasonCode>VATEX-EU-IC</cbc:TaxExemptionReasonCode>
+            <cbc:TaxExemptionReason>VAT exempt intra-community supply (Article 138 Directive 2006/112/EC)</cbc:TaxExemptionReason>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:TaxCategory>
+        </cac:TaxSubtotal>
+      </cac:TaxTotal>
+      <pxs:MonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="EUR">915</cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="EUR">915</cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="EUR">915</cbc:TaxInclusiveAmount> <!-- BT-112 - Invoice_total_amount_with_VAT - C3-only -->
+        <cbc:PayableAmount currencyID="EUR">915</cbc:PayableAmount>           <!-- BT-115 - Amount_due_for_payment - C3-only -->
+      </pxs:MonetaryTotal>
+      <pxs:DocumentLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="H87">3</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">306</cbc:LineExtensionAmount>
+        <cac:Item>
+          <cbc:Description>This Great Good is invoiced with a 0% VAT rate and "K" tax code to indicate use of the ICS tax exemption</cbc:Description>
+          <cbc:Name>Great Good (exempt of VAT for IC supply-Code K)</cbc:Name>
+          <cac:ClassifiedTaxCategory>
+            <cbc:ID>K</cbc:ID>                                <!-- BT-151 - Invoiced_item_VAT_category_code -->
+            <cbc:Percent>0</cbc:Percent>                      <!-- BT-152 - Invoiced_item_VAT_rate - C3-only -->
+<!--             <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme> -->                             <!-- Required for technical reasons in UBL invoices ?? -->
+          </cac:ClassifiedTaxCategory>
+        </cac:Item>
+        <cac:Price>
+          <cbc:PriceAmount currencyID="EUR">102</cbc:PriceAmount>
+        </cac:Price>
+      </pxs:DocumentLine>
+      <pxs:DocumentLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="H87">7</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">609</cbc:LineExtensionAmount>
+        <cac:Item>
+          <cbc:Description>Another Great Good, invoiced with a 0% VAT rate and "K" tax code to indicate use of the ICS tax exemption</cbc:Description>
+          <cbc:Name>Another Great Good (exempt of VAT for IC supply-Code K)</cbc:Name>
+          <cac:ClassifiedTaxCategory>
+            <cbc:ID>K</cbc:ID>                                <!-- BT-151 - Invoiced_item_VAT_category_code -->
+            <cbc:Percent>0</cbc:Percent>                      <!-- BT-152 - Invoiced_item_VAT_rate - C3-only -->
+<!--             <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme> -->                             <!-- Required for technical reasons in UBL invoices ?? -->
+          </cac:ClassifiedTaxCategory>
+        </cac:Item>
+        <cac:Price>
+          <cbc:PriceAmount currencyID="EUR">87</cbc:PriceAmount>
+        </cac:Price>
+      </pxs:DocumentLine>
+    </pxs:ReportedDocument>
+  </pxs:ReportedTransaction>
+</pxs:TaxData>
