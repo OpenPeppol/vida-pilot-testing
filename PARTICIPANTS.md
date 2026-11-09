@@ -27,6 +27,7 @@ Active participation in the Pilot activities may vary from sprint to sprint.
 | STORMWARE              | 000834 | C2/C3 | Richard Rod           |
 | Fynamics Techno Solutions | 000679 | C2/C3 | Satish Rajagopalan |
 | fiskaltrust | 000929 | C2/C3 | Stefan Kert |
+| Routty | 000523 | C2/C3 |  |
 
 ## Tax Administrations
 
