@@ -44,7 +44,6 @@ As such, the seller and buyer are located in two different EU member states.</ra
 			<ram:SpecifiedLineTradeSettlement>
 				<ram:ApplicableTradeTax>
 					<ram:TypeCode>VAT</ram:TypeCode>
-					<ram:ExemptionReason>Export outside of EU</ram:ExemptionReason>
 					<ram:CategoryCode>G</ram:CategoryCode>
 					<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
 				</ram:ApplicableTradeTax>
@@ -75,7 +74,6 @@ As such, the seller and buyer are located in two different EU member states.</ra
 			<ram:SpecifiedLineTradeSettlement>
 				<ram:ApplicableTradeTax>
 					<ram:TypeCode>VAT</ram:TypeCode>
-					<ram:ExemptionReason>Export outside of EU</ram:ExemptionReason>
 					<ram:CategoryCode>G</ram:CategoryCode>
 					<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
 				</ram:ApplicableTradeTax>
@@ -169,7 +167,7 @@ As such, the seller and buyer are located in two different EU member states.</ra
 		</ram:ApplicableHeaderTradeAgreement>
 		<ram:ApplicableHeaderTradeDelivery>
 			<ram:ShipToTradeParty>
-				<ram:Name>Kjøper Norge AS (Delivery to buyer main address - country BT-80 must be specified for ICS)</ram:Name>
+				<ram:Name>Kjøper Norge AS</ram:Name>
 				<ram:PostalTradeAddress>
 					<ram:PostcodeCode>0159</ram:PostcodeCode>
 					<ram:LineOne>Karl Johans gate 25</ram:LineOne>

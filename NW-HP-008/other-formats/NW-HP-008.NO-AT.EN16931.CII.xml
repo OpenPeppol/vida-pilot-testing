@@ -44,7 +44,6 @@ As such, the seller and buyer are located in two different EU member states.</ra
 			<ram:SpecifiedLineTradeSettlement>
 				<ram:ApplicableTradeTax>
 					<ram:TypeCode>VAT</ram:TypeCode>
-					<ram:ExemptionReason>Import into EU</ram:ExemptionReason>
 					<ram:CategoryCode>G</ram:CategoryCode>
 					<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
 				</ram:ApplicableTradeTax>
@@ -75,7 +74,6 @@ As such, the seller and buyer are located in two different EU member states.</ra
 			<ram:SpecifiedLineTradeSettlement>
 				<ram:ApplicableTradeTax>
 					<ram:TypeCode>VAT</ram:TypeCode>
-					<ram:ExemptionReason>Import into EU</ram:ExemptionReason>
 					<ram:CategoryCode>G</ram:CategoryCode>
 					<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
 				</ram:ApplicableTradeTax>
@@ -160,7 +158,7 @@ As such, the seller and buyer are located in two different EU member states.</ra
 		</ram:ApplicableHeaderTradeAgreement>
 		<ram:ApplicableHeaderTradeDelivery>
 			<ram:ShipToTradeParty>
-				<ram:Name>Österr. Abnehmer GmbH (Delivery to buyer main address - country BT-80 must be specified for ICS)</ram:Name>
+				<ram:Name>Österr. Abnehmer GmbH</ram:Name>
 				<ram:PostalTradeAddress>
 					<ram:PostcodeCode>1070</ram:PostcodeCode>
 					<ram:LineOne>Mariahilfer Str. 88</ram:LineOne>

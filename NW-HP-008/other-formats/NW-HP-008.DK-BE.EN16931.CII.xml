@@ -44,7 +44,6 @@ As such, the seller and buyer are located in two different EU member states.</ra
 			<ram:SpecifiedLineTradeSettlement>
 				<ram:ApplicableTradeTax>
 					<ram:TypeCode>VAT</ram:TypeCode>
-					<ram:ExemptionReason>VAT exempt intra-community supply (Article 138 Directive 2006/112/EC)</ram:ExemptionReason>
 					<ram:CategoryCode>K</ram:CategoryCode>
 					<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
 				</ram:ApplicableTradeTax>
@@ -75,7 +74,6 @@ As such, the seller and buyer are located in two different EU member states.</ra
 			<ram:SpecifiedLineTradeSettlement>
 				<ram:ApplicableTradeTax>
 					<ram:TypeCode>VAT</ram:TypeCode>
-					<ram:ExemptionReason>VAT exempt intra-community supply (Article 138 Directive 2006/112/EC)</ram:ExemptionReason>
 					<ram:CategoryCode>K</ram:CategoryCode>
 					<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
 				</ram:ApplicableTradeTax>
@@ -87,7 +85,6 @@ As such, the seller and buyer are located in two different EU member states.</ra
 		<ram:ApplicableHeaderTradeAgreement>
 			<ram:BuyerReference>your buyer reference</ram:BuyerReference>
 			<ram:SellerTradeParty>
-				<ram:ID>9876-555555</ram:ID>
 				<ram:Name>Danmark Salg A/S</ram:Name>
 				<ram:SpecifiedLegalOrganization>
 					<ram:ID schemeID="0184">87654321</ram:ID>

@@ -119,7 +119,7 @@ As such, the seller and buyer are located in two different EU member states.</cb
 		</cac:DeliveryLocation>
 		<cac:DeliveryParty>
 			<cac:PartyName>
-				<cbc:Name>Österr. Abnehmer GmbH (Delivery to buyer main address - country BT-80 must be specified for ICS)</cbc:Name>
+				<cbc:Name>Österr. Abnehmer GmbH</cbc:Name>
 			</cac:PartyName>
 		</cac:DeliveryParty>
 	</cac:Delivery>

@@ -106,7 +106,7 @@ As such, the seller and buyer are located in two different EU member states.</cb
 		</cac:DeliveryLocation>
 		<cac:DeliveryParty>
 			<cac:PartyName>
-				<cbc:Name>Ostaja Finland Oy (Delivery to buyer main address - country BT-80 must be specified for ICS)</cbc:Name>
+				<cbc:Name>Ostaja Finland Oy</cbc:Name>
 			</cac:PartyName>
 		</cac:DeliveryParty>
 	</cac:Delivery>

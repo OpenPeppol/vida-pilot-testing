@@ -29,9 +29,6 @@ As such, the seller and buyer are located in two different EU member states.</cb
   <cac:AccountingSupplierParty>
     <cac:Party>
       <cbc:EndpointID schemeID="9913">001109-vidapilot.DK87654321</cbc:EndpointID>
-      <cac:PartyIdentification>
-        <cbc:ID>9876-555555</cbc:ID>
-      </cac:PartyIdentification>
       <cac:PartyName>
         <cbc:Name>Danmark Salg</cbc:Name>
       </cac:PartyName>

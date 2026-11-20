@@ -1,0 +1,22 @@
+<ApplicationResponse xmlns="urn:oasis:names:specification:ubl:schema:xsd:ApplicationResponse-2">
+  <ns0:CustomizationID xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">urn:peppol:edec:mls:1.0</ns0:CustomizationID>
+  <ns0:ProfileID xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">urn:peppol:edec:mls</ns0:ProfileID>
+  <ns0:ID xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">62de59f5-c933-41e2-a37a-e5181ecec39e</ns0:ID>
+  <ns0:IssueDate xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">2026-09-15</ns0:IssueDate>
+  <ns0:IssueTime xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">07:28:50.932675083Z</ns0:IssueTime>
+  <ns0:SenderParty xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+    <ns1:EndpointID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" schemeID="0242">001110</ns1:EndpointID>
+  </ns0:SenderParty>
+  <ns0:ReceiverParty xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+    <ns1:EndpointID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" schemeID="0242">001109-vidapilot.mls_sandbox</ns1:EndpointID>
+  </ns0:ReceiverParty>
+  <ns0:DocumentResponse xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+    <ns0:Response>
+      <ns1:ResponseCode xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">AP</ns1:ResponseCode>
+      <ns1:Description xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">The corresponding document has been Accepted</ns1:Description>
+    </ns0:Response>
+    <ns0:DocumentReference>
+      <ns1:ID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">d307abf6-329a-4ee2-a54d-52a6cdf0aaeb</ns1:ID>
+    </ns0:DocumentReference>
+  </ns0:DocumentResponse>
+</ApplicationResponse>

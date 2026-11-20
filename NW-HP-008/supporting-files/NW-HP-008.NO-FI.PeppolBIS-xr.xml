@@ -90,7 +90,7 @@ As such, the seller and buyer are located in two different EU member states.</xr
    </xr:BUYER>
    <xr:DELIVERY_INFORMATION xr:id="BG-13" xr:src="/CreditNote/cac:Delivery">
       <xr:Deliver_to_party_name xr:id="BT-70"
-                                xr:src="/CreditNote/cac:Delivery/cac:DeliveryParty/cac:PartyName/cbc:Name">Ostaja Finland Oy (Delivery to buyer main address - country BT-80 must be specified for ICS)</xr:Deliver_to_party_name>
+                                xr:src="/CreditNote/cac:Delivery/cac:DeliveryParty/cac:PartyName/cbc:Name">Ostaja Finland Oy</xr:Deliver_to_party_name>
       <xr:Actual_delivery_date xr:id="BT-72" xr:src="/CreditNote/cac:Delivery/cbc:ActualDeliveryDate">2026-01-31</xr:Actual_delivery_date>
       <xr:DELIVER_TO_ADDRESS xr:id="BG-15"
                              xr:src="/CreditNote/cac:Delivery/cac:DeliveryLocation/cac:Address">

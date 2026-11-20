@@ -106,7 +106,7 @@ This invoice is marked to generate minimum TDDs only: ##TDD:MINIMUM##</cbc:Note>
 		</cac:DeliveryLocation>
 		<cac:DeliveryParty>
 			<cac:PartyName>
-				<cbc:Name>Köpare Sverige AB (Delivery to buyer main address - country BT-80 must be specified for ICS)</cbc:Name>
+				<cbc:Name>Köpare Sverige AB</cbc:Name>
 			</cac:PartyName>
 		</cac:DeliveryParty>
 	</cac:Delivery>

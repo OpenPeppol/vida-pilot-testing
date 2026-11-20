@@ -89,7 +89,7 @@ This invoice is marked to generate minimum TDDs only: ##TDD:MINIMUM##</cbc:Note>
 				<cbc:RegistrationName>Dublin Purchasing Ltd</cbc:RegistrationName>
 			</cac:PartyLegalEntity>
 			<cac:Contact>
-				<cbc:Name>Siobh√°n Walsh</cbc:Name>
+				<cbc:Name>Siobhán Walsh</cbc:Name>
 				<cbc:Telephone>+353 1 496 0987</cbc:Telephone>
 				<cbc:ElectronicMail>swalsh@dublin-purchasing.ie</cbc:ElectronicMail>
 			</cac:Contact>
@@ -109,7 +109,7 @@ This invoice is marked to generate minimum TDDs only: ##TDD:MINIMUM##</cbc:Note>
 		</cac:DeliveryLocation>
 		<cac:DeliveryParty>
 			<cac:PartyName>
-				<cbc:Name>Dublin Purchasing Ltd (Delivery to buyer main address - country BT-80 must be specified for ICS)</cbc:Name>
+				<cbc:Name>Dublin Purchasing Ltd</cbc:Name>
 			</cac:PartyName>
 		</cac:DeliveryParty>
 	</cac:Delivery>

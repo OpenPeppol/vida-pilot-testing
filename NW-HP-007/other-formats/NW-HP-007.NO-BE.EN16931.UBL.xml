@@ -107,7 +107,7 @@ This invoice is marked to generate minimum TDDs only: ##TDD:MINIMUM##</cbc:Note>
 		</cac:DeliveryLocation>
 		<cac:DeliveryParty>
 			<cac:PartyName>
-				<cbc:Name>Belga Aankoper / Belga Acheteur BV/SRL (Delivery to buyer main address - country BT-80 must be specified for ICS)</cbc:Name>
+				<cbc:Name>Belga Aankoper / Belga Acheteur BV/SRL</cbc:Name>
 			</cac:PartyName>
 		</cac:DeliveryParty>
 	</cac:Delivery>
