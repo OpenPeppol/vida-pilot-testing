@@ -45,7 +45,6 @@ This invoice is marked to generate minimum TDDs only: ##TDD:MINIMUM##</ram:Conte
 			<ram:SpecifiedLineTradeSettlement>
 				<ram:ApplicableTradeTax>
 					<ram:TypeCode>VAT</ram:TypeCode>
-					<ram:ExemptionReason>Import into EU</ram:ExemptionReason>
 					<ram:CategoryCode>G</ram:CategoryCode>
 					<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
 				</ram:ApplicableTradeTax>
@@ -76,7 +75,6 @@ This invoice is marked to generate minimum TDDs only: ##TDD:MINIMUM##</ram:Conte
 			<ram:SpecifiedLineTradeSettlement>
 				<ram:ApplicableTradeTax>
 					<ram:TypeCode>VAT</ram:TypeCode>
-					<ram:ExemptionReason>Import into EU</ram:ExemptionReason>
 					<ram:CategoryCode>G</ram:CategoryCode>
 					<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
 				</ram:ApplicableTradeTax>
@@ -161,7 +159,7 @@ This invoice is marked to generate minimum TDDs only: ##TDD:MINIMUM##</ram:Conte
 		</ram:ApplicableHeaderTradeAgreement>
 		<ram:ApplicableHeaderTradeDelivery>
 			<ram:ShipToTradeParty>
-				<ram:Name>Köpare Sverige AB (Delivery to buyer main address - country BT-80 must be specified for ICS)</ram:Name>
+				<ram:Name>Köpare Sverige AB</ram:Name>
 				<ram:PostalTradeAddress>
 					<ram:PostcodeCode>111 51</ram:PostcodeCode>
 					<ram:LineOne>Drottninggatan 30</ram:LineOne>

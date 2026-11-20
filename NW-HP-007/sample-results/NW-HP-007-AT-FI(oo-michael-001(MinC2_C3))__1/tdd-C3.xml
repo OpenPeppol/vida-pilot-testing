@@ -1,0 +1,133 @@
+<TaxData xmlns="urn:peppol:schema:vida-taxdata:1.0">
+  <ns0:CustomizationID xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">urn:peppol:taxdata:vida-1</ns0:CustomizationID>
+  <ns0:ProfileID xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">urn:peppol:taxreporting</ns0:ProfileID>
+  <ns0:UUID xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">59e90c72-edab-4d44-889b-9b3d7118457c</ns0:UUID>
+  <ns0:IssueDate xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">2026-09-17</ns0:IssueDate>
+  <ns0:IssueTime xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">08:49:19.768548672Z</ns0:IssueTime>
+  <TaxDataTypeCode>S</TaxDataTypeCode>
+  <DocumentScope>IC</DocumentScope>
+  <ReporterRole>C3</ReporterRole>
+  <TaxAuthority>
+    <ns0:ID xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">FI</ns0:ID>
+    <ns0:Name xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Finnish Tax Authority</ns0:Name>
+  </TaxAuthority>
+  <ReportingParty>
+    <ns0:EndpointID xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" schemeID="9913">001110-vidapilot.fi12345671</ns0:EndpointID>
+  </ReportingParty>
+  <ReceivingParty>
+    <ns0:EndpointID xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" schemeID="0242">001111-vidapilot.tax_fi</ns0:EndpointID>
+  </ReceivingParty>
+  <ReportersRepresentative>
+    <ns0:PartyIdentification xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+      <ns1:ID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" schemeID="0242">001110</ns1:ID>
+    </ns0:PartyIdentification>
+  </ReportersRepresentative>
+  <ReportedTransaction>
+    <TransmissionUUID>5f8cdbf4-8c03-4122-90c9-e5a118123631</TransmissionUUID>
+    <ReportedDocument>
+      <ns0:CustomizationID xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</ns0:CustomizationID>
+      <ns0:ProfileID xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</ns0:ProfileID>
+      <ns0:ID xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">NW-HP-007 - AT-FI (oo-michael-001 (MinC2/C3))</ns0:ID>
+      <ns0:UUID xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">2e7670a5-a444-57ec-88a9-103354da527c</ns0:UUID>
+      <ns0:IssueDate xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">2026-02-10</ns0:IssueDate>
+      <DocumentTypeCode>380</DocumentTypeCode>
+      <ns0:DocumentCurrencyCode xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">EUR</ns0:DocumentCurrencyCode>
+      <ns0:AccountingSupplierParty xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+        <ns0:Party>
+          <ns0:PostalAddress>
+            <ns0:Country>
+              <ns1:IdentificationCode xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">AT</ns1:IdentificationCode>
+            </ns0:Country>
+          </ns0:PostalAddress>
+          <ns0:PartyTaxScheme>
+            <ns1:CompanyID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">ATU99887766</ns1:CompanyID>
+            <ns0:TaxScheme>
+              <ns1:ID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">VAT</ns1:ID>
+            </ns0:TaxScheme>
+          </ns0:PartyTaxScheme>
+        </ns0:Party>
+      </ns0:AccountingSupplierParty>
+      <ns0:AccountingCustomerParty xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+        <ns0:Party>
+          <ns0:PostalAddress>
+            <ns0:Country>
+              <ns1:IdentificationCode xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">FI</ns1:IdentificationCode>
+            </ns0:Country>
+          </ns0:PostalAddress>
+          <ns0:PartyTaxScheme>
+            <ns1:CompanyID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">FI12345671</ns1:CompanyID>
+            <ns0:TaxScheme>
+              <ns1:ID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">VAT</ns1:ID>
+            </ns0:TaxScheme>
+          </ns0:PartyTaxScheme>
+          <ns0:PartyLegalEntity>
+            <ns1:RegistrationName xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Ostaja Finland Oy</ns1:RegistrationName>
+          </ns0:PartyLegalEntity>
+        </ns0:Party>
+      </ns0:AccountingCustomerParty>
+      <ns0:Delivery xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+        <ns1:ActualDeliveryDate xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">2026-01-31</ns1:ActualDeliveryDate>
+      </ns0:Delivery>
+      <ns0:TaxTotal xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+        <ns1:TaxAmount xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="EUR">0</ns1:TaxAmount>
+        <ns0:TaxSubtotal>
+          <ns1:TaxableAmount xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="EUR">915</ns1:TaxableAmount>
+          <ns1:TaxAmount xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="EUR">0</ns1:TaxAmount>
+          <ns0:TaxCategory>
+            <ns1:ID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">K</ns1:ID>
+            <ns1:Percent xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">0</ns1:Percent>
+            <ns1:TaxExemptionReasonCode xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">VATEX-EU-IC</ns1:TaxExemptionReasonCode>
+            <ns1:TaxExemptionReason xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">VAT exempt intra-community supply (Article 138 Directive 2006/112/EC)</ns1:TaxExemptionReason>
+            <ns0:TaxScheme>
+              <ns1:ID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">VAT</ns1:ID>
+            </ns0:TaxScheme>
+          </ns0:TaxCategory>
+        </ns0:TaxSubtotal>
+      </ns0:TaxTotal>
+      <MonetaryTotal>
+        <ns0:LineExtensionAmount xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="EUR">915</ns0:LineExtensionAmount>
+        <ns0:TaxExclusiveAmount xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="EUR">915</ns0:TaxExclusiveAmount>
+        <ns0:TaxInclusiveAmount xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="EUR">915</ns0:TaxInclusiveAmount>
+        <ns0:PayableAmount xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="EUR">915</ns0:PayableAmount>
+      </MonetaryTotal>
+      <DocumentLine>
+        <ns0:ID xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">1</ns0:ID>
+        <ns0:InvoicedQuantity xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" unitCode="H87">3</ns0:InvoicedQuantity>
+        <ns0:LineExtensionAmount xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="EUR">306</ns0:LineExtensionAmount>
+        <ns0:Item xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+          <ns1:Description xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">This Great Good is invoiced with a 0% VAT rate and "K" tax code to indicate use of the ICS tax exemption</ns1:Description>
+          <ns1:Name xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Great Good (exempt of VAT for IC supply-Code K)</ns1:Name>
+          <ns0:ClassifiedTaxCategory>
+            <ns1:ID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">K</ns1:ID>
+            <ns1:Percent xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">0</ns1:Percent>
+            <ns0:TaxScheme>
+              <ns1:ID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">VAT</ns1:ID>
+            </ns0:TaxScheme>
+          </ns0:ClassifiedTaxCategory>
+        </ns0:Item>
+        <ns0:Price xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+          <ns1:PriceAmount xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="EUR">102</ns1:PriceAmount>
+        </ns0:Price>
+      </DocumentLine>
+      <DocumentLine>
+        <ns0:ID xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">2</ns0:ID>
+        <ns0:InvoicedQuantity xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" unitCode="H87">7</ns0:InvoicedQuantity>
+        <ns0:LineExtensionAmount xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="EUR">609</ns0:LineExtensionAmount>
+        <ns0:Item xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+          <ns1:Description xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Another Great Good, invoiced with a 0% VAT rate and "K" tax code to indicate use of the ICS tax exemption</ns1:Description>
+          <ns1:Name xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Another Great Good (exempt of VAT for IC supply-Code K)</ns1:Name>
+          <ns0:ClassifiedTaxCategory>
+            <ns1:ID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">K</ns1:ID>
+            <ns1:Percent xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">0</ns1:Percent>
+            <ns0:TaxScheme>
+              <ns1:ID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">VAT</ns1:ID>
+            </ns0:TaxScheme>
+          </ns0:ClassifiedTaxCategory>
+        </ns0:Item>
+        <ns0:Price xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+          <ns1:PriceAmount xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="EUR">87</ns1:PriceAmount>
+        </ns0:Price>
+      </DocumentLine>
+    </ReportedDocument>
+  </ReportedTransaction>
+</TaxData>

@@ -1,10 +1,10 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <pxs:TaxData xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:pxs="urn:peppol:schema:vida-taxdata:1.0" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
   <cbc:CustomizationID>urn:peppol:taxdata:vida-1</cbc:CustomizationID>
   <cbc:ProfileID>urn:peppol:taxreporting</cbc:ProfileID>
-  <cbc:UUID>ec0e9100-9e95-44d4-a761-28ce7244b6ec</cbc:UUID>
-  <cbc:IssueDate>2026-09-15</cbc:IssueDate>
-  <cbc:IssueTime>12:27:13.54+02:00</cbc:IssueTime>
+  <cbc:UUID>735c04c2-b43c-4de5-99f3-1d4d7acb6174</cbc:UUID>
+  <cbc:IssueDate>2026-11-20</cbc:IssueDate>
+  <cbc:IssueTime>19:42:35.783+01:00</cbc:IssueTime>
   <pxs:TaxDataTypeCode>S</pxs:TaxDataTypeCode>
   <pxs:DocumentScope>IC</pxs:DocumentScope>
   <pxs:ReporterRole>C3</pxs:ReporterRole>
@@ -24,7 +24,8 @@
     </cac:PartyIdentification>
   </pxs:ReportersRepresentative>
   <pxs:ReportedTransaction>
-    <pxs:TransmissionUUID>a7ca5519-8aaf-43cc-89cf-cbb119f4a62c</pxs:TransmissionUUID><pxs:ReportedDocument>
+    <pxs:TransmissionUUID>dce5f225-799b-5edf-a1d9-b2223406a7f7</pxs:TransmissionUUID>
+    <pxs:ReportedDocument>
       <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
       <cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
       <cbc:ID>NW-HP-006 - NO-IE</cbc:ID>

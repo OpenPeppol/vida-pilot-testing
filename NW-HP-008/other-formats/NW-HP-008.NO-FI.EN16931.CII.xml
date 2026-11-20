@@ -44,7 +44,6 @@ As such, the seller and buyer are located in two different EU member states.</ra
 			<ram:SpecifiedLineTradeSettlement>
 				<ram:ApplicableTradeTax>
 					<ram:TypeCode>VAT</ram:TypeCode>
-					<ram:ExemptionReason>Import into EU</ram:ExemptionReason>
 					<ram:CategoryCode>G</ram:CategoryCode>
 					<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
 				</ram:ApplicableTradeTax>
@@ -75,7 +74,6 @@ As such, the seller and buyer are located in two different EU member states.</ra
 			<ram:SpecifiedLineTradeSettlement>
 				<ram:ApplicableTradeTax>
 					<ram:TypeCode>VAT</ram:TypeCode>
-					<ram:ExemptionReason>Import into EU</ram:ExemptionReason>
 					<ram:CategoryCode>G</ram:CategoryCode>
 					<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
 				</ram:ApplicableTradeTax>
@@ -161,7 +159,7 @@ As such, the seller and buyer are located in two different EU member states.</ra
 		</ram:ApplicableHeaderTradeAgreement>
 		<ram:ApplicableHeaderTradeDelivery>
 			<ram:ShipToTradeParty>
-				<ram:Name>Ostaja Finland Oy (Delivery to buyer main address - country BT-80 must be specified for ICS)</ram:Name>
+				<ram:Name>Ostaja Finland Oy</ram:Name>
 				<ram:PostalTradeAddress>
 					<ram:PostcodeCode>00100</ram:PostcodeCode>
 					<ram:LineOne>Mannerheimintie 12</ram:LineOne>

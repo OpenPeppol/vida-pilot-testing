@@ -45,7 +45,6 @@ This invoice is marked to generate minimum TDDs only: ##TDD:MINIMUM##</ram:Conte
 			<ram:SpecifiedLineTradeSettlement>
 				<ram:ApplicableTradeTax>
 					<ram:TypeCode>VAT</ram:TypeCode>
-					<ram:ExemptionReason>Export outside of EU</ram:ExemptionReason>
 					<ram:CategoryCode>G</ram:CategoryCode>
 					<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
 				</ram:ApplicableTradeTax>
@@ -76,7 +75,6 @@ This invoice is marked to generate minimum TDDs only: ##TDD:MINIMUM##</ram:Conte
 			<ram:SpecifiedLineTradeSettlement>
 				<ram:ApplicableTradeTax>
 					<ram:TypeCode>VAT</ram:TypeCode>
-					<ram:ExemptionReason>Export outside of EU</ram:ExemptionReason>
 					<ram:CategoryCode>G</ram:CategoryCode>
 					<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
 				</ram:ApplicableTradeTax>
@@ -88,7 +86,6 @@ This invoice is marked to generate minimum TDDs only: ##TDD:MINIMUM##</ram:Conte
 		<ram:ApplicableHeaderTradeAgreement>
 			<ram:BuyerReference>your buyer reference</ram:BuyerReference>
 			<ram:SellerTradeParty>
-				<ram:ID>9876-555555</ram:ID>
 				<ram:Name>Danmark Salg A/S</ram:Name>
 				<ram:SpecifiedLegalOrganization>
 					<ram:ID schemeID="0184">87654321</ram:ID>
@@ -159,7 +156,7 @@ This invoice is marked to generate minimum TDDs only: ##TDD:MINIMUM##</ram:Conte
 		</ram:ApplicableHeaderTradeAgreement>
 		<ram:ApplicableHeaderTradeDelivery>
 			<ram:ShipToTradeParty>
-				<ram:Name>Kjøper Norge AS (Delivery to buyer main address - country BT-80 must be specified for ICS)</ram:Name>
+				<ram:Name>Kjøper Norge AS</ram:Name>
 				<ram:PostalTradeAddress>
 					<ram:PostcodeCode>0159</ram:PostcodeCode>
 					<ram:LineOne>Karl Johans gate 25</ram:LineOne>

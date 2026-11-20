@@ -1,0 +1,186 @@
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
+  <ns0:CustomizationID xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</ns0:CustomizationID>
+  <ns0:ProfileID xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</ns0:ProfileID>
+  <ns0:ID xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">NW-HP-001 - FI-SE (Maria QA 9 - min extraction)</ns0:ID>
+  <ns0:IssueDate xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">2026-02-10</ns0:IssueDate>
+  <ns0:DueDate xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">2026-03-12</ns0:DueDate>
+  <ns0:InvoiceTypeCode xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">380</ns0:InvoiceTypeCode>
+  <ns0:Note xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">##TDD:MINIMUM## FICTITIOUS INVOICE - DO NOT PAY - DO NOT USE IN TAX RETURNS!
+This is a generic sample invoice to cover a "regular" invoicing use case in ViDA.
+As such, the seller and buyer are located in two different EU member states.</ns0:Note>
+  <ns0:DocumentCurrencyCode xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">EUR</ns0:DocumentCurrencyCode>
+  <ns0:BuyerReference xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">your buyer reference</ns0:BuyerReference>
+  <ns0:OrderReference xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+    <ns1:ID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">PO-54321</ns1:ID>
+    <ns1:SalesOrderID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Order #456789</ns1:SalesOrderID>
+	  </ns0:OrderReference>
+  <ns0:ContractDocumentReference xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+    <ns1:ID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Contract ABC</ns1:ID>
+	  </ns0:ContractDocumentReference>
+  <ns0:ProjectReference xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+    <ns1:ID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Project #12345</ns1:ID>
+	  </ns0:ProjectReference>
+  <ns0:AccountingSupplierParty xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+    <ns0:Party>
+      <ns1:EndpointID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" schemeID="9913">001109-vidapilot.fi12345678</ns1:EndpointID>
+      <ns0:PartyIdentification>
+        <ns1:ID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">9876-3333333</ns1:ID>
+			      </ns0:PartyIdentification>
+      <ns0:PartyName>
+        <ns1:Name xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Suomi Myynti</ns1:Name>
+			      </ns0:PartyName>
+      <ns0:PostalAddress>
+        <ns1:StreetName xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Mannerheimintie 10</ns1:StreetName>
+        <ns1:CityName xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Helsinki</ns1:CityName>
+        <ns1:PostalZone xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">00100</ns1:PostalZone>
+        <ns0:Country>
+          <ns1:IdentificationCode xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">FI</ns1:IdentificationCode>
+				        </ns0:Country>
+			      </ns0:PostalAddress>
+      <ns0:PartyTaxScheme>
+        <ns1:CompanyID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">FI12345678</ns1:CompanyID>
+        <ns0:TaxScheme>
+          <ns1:ID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">VAT</ns1:ID>
+				        </ns0:TaxScheme>
+			      </ns0:PartyTaxScheme>
+      <ns0:PartyLegalEntity>
+        <ns1:RegistrationName xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Suomi Myynti Oy</ns1:RegistrationName>
+			      </ns0:PartyLegalEntity>
+      <ns0:Contact>
+        <ns1:Name xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Matti Virtanen</ns1:Name>
+        <ns1:Telephone xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">+358 9 555 1234</ns1:Telephone>
+        <ns1:ElectronicMail xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">matti.virtanen@suomi-myynti.fi</ns1:ElectronicMail>
+			      </ns0:Contact>
+		    </ns0:Party>
+	  </ns0:AccountingSupplierParty>
+  <ns0:AccountingCustomerParty xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+    <ns0:Party>
+      <ns1:EndpointID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" schemeID="9913">001110-vidapilot.se553456789101</ns1:EndpointID>
+      <ns0:PartyName>
+        <ns1:Name xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Köpare Sverige</ns1:Name>
+			      </ns0:PartyName>
+      <ns0:PostalAddress>
+        <ns1:StreetName xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Drottninggatan 30</ns1:StreetName>
+        <ns1:CityName xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Stockholm</ns1:CityName>
+        <ns1:PostalZone xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">111 51</ns1:PostalZone>
+        <ns0:Country>
+          <ns1:IdentificationCode xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">SE</ns1:IdentificationCode>
+				        </ns0:Country>
+			      </ns0:PostalAddress>
+      <ns0:PartyTaxScheme>
+        <ns1:CompanyID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">SE553456789101</ns1:CompanyID>
+        <ns0:TaxScheme>
+          <ns1:ID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">VAT</ns1:ID>
+				        </ns0:TaxScheme>
+			      </ns0:PartyTaxScheme>
+      <ns0:PartyLegalEntity>
+        <ns1:RegistrationName xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Köpare Sverige AB</ns1:RegistrationName>
+			      </ns0:PartyLegalEntity>
+      <ns0:Contact>
+        <ns1:Name xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Erik Lindström</ns1:Name>
+        <ns1:Telephone xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">+46 8 12345678</ns1:Telephone>
+        <ns1:ElectronicMail xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">e.lindstrom@kopare-sverige.se</ns1:ElectronicMail>
+			      </ns0:Contact>
+		    </ns0:Party>
+	  </ns0:AccountingCustomerParty>
+  <ns0:Delivery xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+    <ns1:ActualDeliveryDate xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">2026-01-31</ns1:ActualDeliveryDate>
+    <ns0:DeliveryLocation>
+      <ns0:Address>
+        <ns1:StreetName xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Drottninggatan 30</ns1:StreetName>
+        <ns1:CityName xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Stockholm</ns1:CityName>
+        <ns1:PostalZone xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">111 51</ns1:PostalZone>
+        <ns0:Country>
+          <ns1:IdentificationCode xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">SE</ns1:IdentificationCode>
+				        </ns0:Country>
+			      </ns0:Address>
+		    </ns0:DeliveryLocation>
+    <ns0:DeliveryParty>
+      <ns0:PartyName>
+        <ns1:Name xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Köpare Sverige AB (Delivery to buyer main address - country BT-80 must be specified for ICS)</ns1:Name>
+			      </ns0:PartyName>
+		    </ns0:DeliveryParty>
+	  </ns0:Delivery>
+  <ns0:PaymentMeans xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+    <ns1:PaymentMeansCode xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" name="SEPA credit transfer">58</ns1:PaymentMeansCode>
+    <ns0:PayeeFinancialAccount>
+      <ns1:ID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">FI98 1428 3500 1711 41</ns1:ID>
+      <ns1:Name xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Suomi Myynti Oy</ns1:Name>
+		    </ns0:PayeeFinancialAccount>
+	  </ns0:PaymentMeans>
+  <ns0:PaymentTerms xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+    <ns1:Note xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Please remit your payment of 915,00 € before 12.03.2026.</ns1:Note>
+	  </ns0:PaymentTerms>
+  <ns0:TaxTotal xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+    <ns1:TaxAmount xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="EUR">0</ns1:TaxAmount>
+    <ns0:TaxSubtotal>
+      <ns1:TaxableAmount xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="EUR">915</ns1:TaxableAmount>
+      <ns1:TaxAmount xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="EUR">0</ns1:TaxAmount>
+      <ns0:TaxCategory>
+        <ns1:ID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">K</ns1:ID>
+        <ns1:Percent xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">0</ns1:Percent>
+        <ns1:TaxExemptionReasonCode xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">VATEX-EU-IC</ns1:TaxExemptionReasonCode>
+        <ns1:TaxExemptionReason xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">VAT exempt intra-community supply (Article 138 Directive 2006/112/EC)</ns1:TaxExemptionReason>
+        <ns0:TaxScheme>
+          <ns1:ID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">VAT</ns1:ID>
+				        </ns0:TaxScheme>
+			      </ns0:TaxCategory>
+		    </ns0:TaxSubtotal>
+	  </ns0:TaxTotal>
+  <ns0:LegalMonetaryTotal xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+    <ns1:LineExtensionAmount xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="EUR">915</ns1:LineExtensionAmount>
+    <ns1:TaxExclusiveAmount xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="EUR">915</ns1:TaxExclusiveAmount>
+    <ns1:TaxInclusiveAmount xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="EUR">915</ns1:TaxInclusiveAmount>
+    <ns1:PayableAmount xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="EUR">915</ns1:PayableAmount>
+	  </ns0:LegalMonetaryTotal>
+  <ns0:InvoiceLine xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+    <ns1:ID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">1</ns1:ID>
+    <ns1:InvoicedQuantity xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" unitCode="H87">3</ns1:InvoicedQuantity>
+    <ns1:LineExtensionAmount xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="EUR">306</ns1:LineExtensionAmount>
+    <ns0:Item>
+      <ns1:Description xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">This Great Good is invoiced with a 0% VAT rate and "K" tax code to indicate use of the ICS tax exemption</ns1:Description>
+      <ns1:Name xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Great Good (exempt of VAT for IC supply-Code K)</ns1:Name>
+      <ns0:BuyersItemIdentification>
+        <ns1:ID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Buyer SKU not known</ns1:ID>
+			      </ns0:BuyersItemIdentification>
+      <ns0:SellersItemIdentification>
+        <ns1:ID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">GG-100124</ns1:ID>
+			      </ns0:SellersItemIdentification>
+      <ns0:ClassifiedTaxCategory>
+        <ns1:ID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">K</ns1:ID>
+        <ns1:Percent xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">0</ns1:Percent>
+        <ns0:TaxScheme>
+          <ns1:ID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">VAT</ns1:ID>
+				        </ns0:TaxScheme>
+			      </ns0:ClassifiedTaxCategory>
+		    </ns0:Item>
+    <ns0:Price>
+      <ns1:PriceAmount xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="EUR">102</ns1:PriceAmount>
+		    </ns0:Price>
+	  </ns0:InvoiceLine>
+  <ns0:InvoiceLine xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+    <ns1:ID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">2</ns1:ID>
+    <ns1:InvoicedQuantity xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" unitCode="H87">7</ns1:InvoicedQuantity>
+    <ns1:LineExtensionAmount xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="EUR">609</ns1:LineExtensionAmount>
+    <ns0:Item>
+      <ns1:Description xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Another Great Good, invoiced with a 0% VAT rate and "K" tax code to indicate use of the ICS tax exemption</ns1:Description>
+      <ns1:Name xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Another Great Good (exempt of VAT for IC supply-Code K)</ns1:Name>
+      <ns0:BuyersItemIdentification>
+        <ns1:ID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Buyer SKU not known</ns1:ID>
+			      </ns0:BuyersItemIdentification>
+      <ns0:SellersItemIdentification>
+        <ns1:ID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">GG-100993</ns1:ID>
+			      </ns0:SellersItemIdentification>
+      <ns0:ClassifiedTaxCategory>
+        <ns1:ID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">K</ns1:ID>
+        <ns1:Percent xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">0</ns1:Percent>
+        <ns0:TaxScheme>
+          <ns1:ID xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">VAT</ns1:ID>
+				        </ns0:TaxScheme>
+			      </ns0:ClassifiedTaxCategory>
+		    </ns0:Item>
+    <ns0:Price>
+      <ns1:PriceAmount xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" currencyID="EUR">87</ns1:PriceAmount>
+		    </ns0:Price>
+	  </ns0:InvoiceLine>
+</Invoice>

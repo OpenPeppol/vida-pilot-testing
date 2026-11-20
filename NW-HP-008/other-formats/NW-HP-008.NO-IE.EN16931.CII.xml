@@ -44,7 +44,6 @@ As such, the seller and buyer are located in two different EU member states.</ra
 			<ram:SpecifiedLineTradeSettlement>
 				<ram:ApplicableTradeTax>
 					<ram:TypeCode>VAT</ram:TypeCode>
-					<ram:ExemptionReason>Import into EU</ram:ExemptionReason>
 					<ram:CategoryCode>G</ram:CategoryCode>
 					<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
 				</ram:ApplicableTradeTax>
@@ -75,7 +74,6 @@ As such, the seller and buyer are located in two different EU member states.</ra
 			<ram:SpecifiedLineTradeSettlement>
 				<ram:ApplicableTradeTax>
 					<ram:TypeCode>VAT</ram:TypeCode>
-					<ram:ExemptionReason>Import into EU</ram:ExemptionReason>
 					<ram:CategoryCode>G</ram:CategoryCode>
 					<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
 				</ram:ApplicableTradeTax>
@@ -124,7 +122,7 @@ As such, the seller and buyer are located in two different EU member states.</ra
 					<ram:TradingBusinessName>Dublin Purchasing</ram:TradingBusinessName>
 				</ram:SpecifiedLegalOrganization>
 				<ram:DefinedTradeContact>
-					<ram:PersonName>Siobh√°n Walsh</ram:PersonName>
+					<ram:PersonName>Siobhán Walsh</ram:PersonName>
 					<ram:TelephoneUniversalCommunication>
 						<ram:CompleteNumber>+353 1 496 0987</ram:CompleteNumber>
 					</ram:TelephoneUniversalCommunication>
@@ -161,7 +159,7 @@ As such, the seller and buyer are located in two different EU member states.</ra
 		</ram:ApplicableHeaderTradeAgreement>
 		<ram:ApplicableHeaderTradeDelivery>
 			<ram:ShipToTradeParty>
-				<ram:Name>Dublin Purchasing Ltd (Delivery to buyer main address - country BT-80 must be specified for ICS)</ram:Name>
+				<ram:Name>Dublin Purchasing Ltd</ram:Name>
 				<ram:PostalTradeAddress>
 					<ram:PostcodeCode>D02 HE10</ram:PostcodeCode>
 					<ram:LineOne>45 Grafton Street</ram:LineOne>

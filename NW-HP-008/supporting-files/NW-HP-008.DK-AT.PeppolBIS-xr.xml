@@ -31,8 +31,6 @@ As such, the seller and buyer are located in two different EU member states.</xr
                       xr:src="/CreditNote/cac:AccountingSupplierParty/cac:Party/cac:PartyLegalEntity/cbc:RegistrationName">Danmark Salg A/S</xr:Seller_name>
       <xr:Seller_trading_name xr:id="BT-28"
                               xr:src="/CreditNote/cac:AccountingSupplierParty/cac:Party/cac:PartyName/cbc:Name">Danmark Salg</xr:Seller_trading_name>
-      <xr:Seller_identifier xr:id="BT-29"
-                            xr:src="/CreditNote/cac:AccountingSupplierParty/cac:Party/cac:PartyIdentification/cbc:ID">9876-555555</xr:Seller_identifier>
       <xr:Seller_legal_registration_identifier xr:id="BT-30"
                                                xr:src="/CreditNote/cac:AccountingSupplierParty/cac:Party/cac:PartyLegalEntity/cbc:CompanyID"
                                                scheme_identifier="0184">87654321</xr:Seller_legal_registration_identifier>

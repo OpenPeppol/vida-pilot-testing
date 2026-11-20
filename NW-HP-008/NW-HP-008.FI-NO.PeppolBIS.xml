@@ -97,7 +97,7 @@ As such, the seller and buyer are located in two different EU member states.</cb
     </cac:DeliveryLocation>
     <cac:DeliveryParty>
       <cac:PartyName>
-        <cbc:Name>Kjøper Norge AS (Delivery to buyer main address - country BT-80 must be specified for ICS)</cbc:Name>
+        <cbc:Name>Kjøper Norge AS</cbc:Name>
       </cac:PartyName>
     </cac:DeliveryParty>
   </cac:Delivery>

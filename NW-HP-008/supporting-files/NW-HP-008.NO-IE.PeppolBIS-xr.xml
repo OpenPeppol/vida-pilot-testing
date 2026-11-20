@@ -80,7 +80,7 @@ As such, the seller and buyer are located in two different EU member states.</xr
       <xr:BUYER_CONTACT xr:id="BG-9"
                         xr:src="/CreditNote/cac:AccountingCustomerParty/cac:Party/cac:Contact">
          <xr:Buyer_contact_point xr:id="BT-56"
-                                 xr:src="/CreditNote/cac:AccountingCustomerParty/cac:Party/cac:Contact/cbc:Name">Siobh√°n Walsh</xr:Buyer_contact_point>
+                                 xr:src="/CreditNote/cac:AccountingCustomerParty/cac:Party/cac:Contact/cbc:Name">Siobhán Walsh</xr:Buyer_contact_point>
          <xr:Buyer_contact_telephone_number xr:id="BT-57"
                                             xr:src="/CreditNote/cac:AccountingCustomerParty/cac:Party/cac:Contact/cbc:Telephone">+353 1 496 0987</xr:Buyer_contact_telephone_number>
          <xr:Buyer_contact_email_address xr:id="BT-58"
@@ -89,7 +89,7 @@ As such, the seller and buyer are located in two different EU member states.</xr
    </xr:BUYER>
    <xr:DELIVERY_INFORMATION xr:id="BG-13" xr:src="/CreditNote/cac:Delivery">
       <xr:Deliver_to_party_name xr:id="BT-70"
-                                xr:src="/CreditNote/cac:Delivery/cac:DeliveryParty/cac:PartyName/cbc:Name">Dublin Purchasing Ltd (Delivery to buyer main address - country BT-80 must be specified for ICS)</xr:Deliver_to_party_name>
+                                xr:src="/CreditNote/cac:Delivery/cac:DeliveryParty/cac:PartyName/cbc:Name">Dublin Purchasing Ltd</xr:Deliver_to_party_name>
       <xr:Actual_delivery_date xr:id="BT-72" xr:src="/CreditNote/cac:Delivery/cbc:ActualDeliveryDate">2026-01-31</xr:Actual_delivery_date>
       <xr:DELIVER_TO_ADDRESS xr:id="BG-15"
                              xr:src="/CreditNote/cac:Delivery/cac:DeliveryLocation/cac:Address">

@@ -88,7 +88,7 @@ As such, the seller and buyer are located in two different EU member states.</xr
    </xr:BUYER>
    <xr:DELIVERY_INFORMATION xr:id="BG-13" xr:src="/CreditNote/cac:Delivery">
       <xr:Deliver_to_party_name xr:id="BT-70"
-                                xr:src="/CreditNote/cac:Delivery/cac:DeliveryParty/cac:PartyName/cbc:Name">Kjøper Norge AS (Delivery to buyer main address - country BT-80 must be specified for ICS)</xr:Deliver_to_party_name>
+                                xr:src="/CreditNote/cac:Delivery/cac:DeliveryParty/cac:PartyName/cbc:Name">Kjøper Norge AS</xr:Deliver_to_party_name>
       <xr:Actual_delivery_date xr:id="BT-72" xr:src="/CreditNote/cac:Delivery/cbc:ActualDeliveryDate">2026-01-31</xr:Actual_delivery_date>
       <xr:DELIVER_TO_ADDRESS xr:id="BG-15"
                              xr:src="/CreditNote/cac:Delivery/cac:DeliveryLocation/cac:Address">
@@ -140,6 +140,10 @@ As such, the seller and buyer are located in two different EU member states.</xr
       <xr:VAT_exemption_reason_code xr:id="BT-121"
                                     xr:src="/CreditNote/cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory/cbc:TaxExemptionReasonCode">VATEX-EU-G</xr:VAT_exemption_reason_code>
    </xr:VAT_BREAKDOWN>
+   <xr:ADDITIONAL_SUPPORTING_DOCUMENTS xr:id="BG-24" xr:src="/CreditNote/cac:AdditionalDocumentReference">
+      <xr:Supporting_document_reference xr:id="BT-122"
+                                        xr:src="/CreditNote/cac:AdditionalDocumentReference/cbc:ID">Project #12345</xr:Supporting_document_reference>
+   </xr:ADDITIONAL_SUPPORTING_DOCUMENTS>
    <xr:INVOICE_LINE xr:id="BG-25" xr:src="/CreditNote/cac:CreditNoteLine[1]">
       <xr:Invoice_line_identifier xr:id="BT-126" xr:src="/CreditNote/cac:CreditNoteLine[1]/cbc:ID">1</xr:Invoice_line_identifier>
       <xr:Invoiced_quantity xr:id="BT-129"
