@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+	<cbc:CustomizationID>urn:cen.eu:en16931:2017</cbc:CustomizationID>
+	<cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
+	<cbc:ID>NW-HP-010 - FI-FI</cbc:ID>
+	<cbc:IssueDate>2026-02-10</cbc:IssueDate>
+	<cbc:DueDate>2026-03-12</cbc:DueDate>
+	<cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+	<cbc:Note>FICTITIOUS INVOICE - DO NOT PAY - DO NOT USE IN TAX RETURNS!
+This is a generic sample invoice to cover a "regular" domestic invoicing use case, applying the ViDA reporting rules as if they were national law.
+As such, the seller and buyer are located in the same EU member state.</cbc:Note>
+	<cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+	<cbc:BuyerReference>your buyer reference</cbc:BuyerReference>
+	<cac:OrderReference>
+		<cbc:ID>PO-54321</cbc:ID>
+		<cbc:SalesOrderID>Order #456789</cbc:SalesOrderID>
+	</cac:OrderReference>
+	<cac:ContractDocumentReference>
+		<cbc:ID>Contract ABC</cbc:ID>
+	</cac:ContractDocumentReference>
+	<cac:ProjectReference>
+		<cbc:ID>Project #12345</cbc:ID>
+	</cac:ProjectReference>
+	<cac:AccountingSupplierParty>
+		<cac:Party>
+			<cbc:EndpointID schemeID="9913">001109-vidapilot.FI12345678</cbc:EndpointID>
+			<cac:PartyIdentification>
+				<cbc:ID>9876-3333333</cbc:ID>
+			</cac:PartyIdentification>
+			<cac:PartyName>
+				<cbc:Name>Suomi Myynti</cbc:Name>
+			</cac:PartyName>
+			<cac:PostalAddress>
+				<cbc:StreetName>Mannerheimintie 10</cbc:StreetName>
+				<cbc:CityName>Helsinki</cbc:CityName>
+				<cbc:PostalZone>00100</cbc:PostalZone>
+				<cac:Country>
+					<cbc:IdentificationCode>FI</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:PostalAddress>
+			<cac:PartyTaxScheme>
+				<cbc:CompanyID>FI12345678</cbc:CompanyID>
+				<cac:TaxScheme>
+					<cbc:ID>VAT</cbc:ID>
+				</cac:TaxScheme>
+			</cac:PartyTaxScheme>
+			<cac:PartyLegalEntity>
+				<cbc:RegistrationName>Suomi Myynti Oy</cbc:RegistrationName>
+			</cac:PartyLegalEntity>
+			<cac:Contact>
+				<cbc:Name>Matti Virtanen</cbc:Name>
+				<cbc:Telephone>+358 9 555 1234</cbc:Telephone>
+				<cbc:ElectronicMail>matti.virtanen@suomi-myynti.fi</cbc:ElectronicMail>
+			</cac:Contact>
+		</cac:Party>
+	</cac:AccountingSupplierParty>
+	<cac:AccountingCustomerParty>
+		<cac:Party>
+			<cbc:EndpointID schemeID="9913">001110-vidapilot.FI12345671</cbc:EndpointID>
+			<cac:PartyName>
+				<cbc:Name>Ostaja Finland</cbc:Name>
+			</cac:PartyName>
+			<cac:PostalAddress>
+				<cbc:StreetName>Mannerheimintie 12</cbc:StreetName>
+				<cbc:CityName>Helsinki</cbc:CityName>
+				<cbc:PostalZone>00100</cbc:PostalZone>
+				<cac:Country>
+					<cbc:IdentificationCode>FI</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:PostalAddress>
+			<cac:PartyTaxScheme>
+				<cbc:CompanyID>FI12345671</cbc:CompanyID>
+				<cac:TaxScheme>
+					<cbc:ID>VAT</cbc:ID>
+				</cac:TaxScheme>
+			</cac:PartyTaxScheme>
+			<cac:PartyLegalEntity>
+				<cbc:RegistrationName>Ostaja Finland Oy</cbc:RegistrationName>
+				<cbc:CompanyID schemeID="0216">003712345671buyer</cbc:CompanyID>
+			</cac:PartyLegalEntity>
+			<cac:Contact>
+				<cbc:Name>Mikko Virtanen</cbc:Name>
+				<cbc:Telephone>+358 9 12345678</cbc:Telephone>
+				<cbc:ElectronicMail>m.virtanen@ostaja-finland.fi</cbc:ElectronicMail>
+			</cac:Contact>
+		</cac:Party>
+	</cac:AccountingCustomerParty>
+	<cac:Delivery>
+		<cbc:ActualDeliveryDate>2026-01-31</cbc:ActualDeliveryDate>
+		<cac:DeliveryLocation>
+			<cac:Address>
+				<cbc:StreetName>Mannerheimintie 12</cbc:StreetName>
+				<cbc:CityName>Helsinki</cbc:CityName>
+				<cbc:PostalZone>00100</cbc:PostalZone>
+				<cac:Country>
+					<cbc:IdentificationCode>FI</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:DeliveryLocation>
+		<cac:DeliveryParty>
+			<cac:PartyName>
+				<cbc:Name>Ostaja Finland Oy</cbc:Name>
+			</cac:PartyName>
+		</cac:DeliveryParty>
+	</cac:Delivery>
+	<cac:PaymentMeans>
+		<cbc:PaymentMeansCode name="SEPA credit transfer">58</cbc:PaymentMeansCode>
+		<cac:PayeeFinancialAccount>
+			<cbc:ID>FI98 1428 3500 1711 41</cbc:ID>
+			<cbc:Name>Suomi Myynti Oy</cbc:Name>
+		</cac:PayeeFinancialAccount>
+	</cac:PaymentMeans>
+	<cac:PaymentTerms>
+		<cbc:Note>Please remit your payment of 714,00 € before 12.03.2026.</cbc:Note>
+	</cac:PaymentTerms>
+	<cac:TaxTotal>
+		<cbc:TaxAmount currencyID="EUR">0</cbc:TaxAmount>
+		<cac:TaxSubtotal>
+			<cbc:TaxableAmount currencyID="EUR">714</cbc:TaxableAmount>
+			<cbc:TaxAmount currencyID="EUR">0</cbc:TaxAmount>
+			<cac:TaxCategory>
+				<cbc:ID>AE</cbc:ID>
+				<cbc:Percent>0</cbc:Percent>
+				<cbc:TaxExemptionReasonCode>VATEX-EU-AE</cbc:TaxExemptionReasonCode>
+				<cbc:TaxExemptionReason>Construction service under domestic reverse charge</cbc:TaxExemptionReason>
+				<cac:TaxScheme>
+					<cbc:ID>VAT</cbc:ID>
+				</cac:TaxScheme>
+			</cac:TaxCategory>
+		</cac:TaxSubtotal>
+	</cac:TaxTotal>
+	<cac:LegalMonetaryTotal>
+		<cbc:LineExtensionAmount currencyID="EUR">714</cbc:LineExtensionAmount>
+		<cbc:TaxExclusiveAmount currencyID="EUR">714</cbc:TaxExclusiveAmount>
+		<cbc:TaxInclusiveAmount currencyID="EUR">714</cbc:TaxInclusiveAmount>
+		<cbc:PayableAmount currencyID="EUR">714</cbc:PayableAmount>
+	</cac:LegalMonetaryTotal>
+	<cac:InvoiceLine>
+		<cbc:ID>1</cbc:ID>
+		<cbc:InvoicedQuantity unitCode="H87">3</cbc:InvoicedQuantity>
+		<cbc:LineExtensionAmount currencyID="EUR">315</cbc:LineExtensionAmount>
+		<cac:Item>
+			<cbc:Description>This construction supply is invoiced using national reverse charge at 0% VAT rate and "AE" tax code.</cbc:Description>
+			<cbc:Name>Super construction supply (reverse charge - Code AE, 0 rate)</cbc:Name>
+			<cac:BuyersItemIdentification>
+				<cbc:ID>Buyer SKU not known</cbc:ID>
+			</cac:BuyersItemIdentification>
+			<cac:SellersItemIdentification>
+				<cbc:ID>SCS-990124</cbc:ID>
+			</cac:SellersItemIdentification>
+			<cac:ClassifiedTaxCategory>
+				<cbc:ID>AE</cbc:ID>
+				<cbc:Percent>0</cbc:Percent>
+				<cac:TaxScheme>
+					<cbc:ID>VAT</cbc:ID>
+				</cac:TaxScheme>
+			</cac:ClassifiedTaxCategory>
+		</cac:Item>
+		<cac:Price>
+			<cbc:PriceAmount currencyID="EUR">105</cbc:PriceAmount>
+		</cac:Price>
+	</cac:InvoiceLine>
+	<cac:InvoiceLine>
+		<cbc:ID>2</cbc:ID>
+		<cbc:InvoicedQuantity unitCode="H87">7</cbc:InvoicedQuantity>
+		<cbc:LineExtensionAmount currencyID="EUR">399</cbc:LineExtensionAmount>
+		<cac:Item>
+			<cbc:Description>Also, this construction supply is invoiced using national reverse charge at 0% VAT rate and "AE" tax code.</cbc:Description>
+			<cbc:Name>Another super construction supply (reverse charge - Code AE, 0 rate)</cbc:Name>
+			<cac:BuyersItemIdentification>
+				<cbc:ID>Buyer SKU not known</cbc:ID>
+			</cac:BuyersItemIdentification>
+			<cac:SellersItemIdentification>
+				<cbc:ID>SCS-200994</cbc:ID>
+			</cac:SellersItemIdentification>
+			<cac:ClassifiedTaxCategory>
+				<cbc:ID>AE</cbc:ID>
+				<cbc:Percent>0</cbc:Percent>
+				<cac:TaxScheme>
+					<cbc:ID>VAT</cbc:ID>
+				</cac:TaxScheme>
+			</cac:ClassifiedTaxCategory>
+		</cac:Item>
+		<cac:Price>
+			<cbc:PriceAmount currencyID="EUR">57</cbc:PriceAmount>
+		</cac:Price>
+	</cac:InvoiceLine>
+</Invoice>

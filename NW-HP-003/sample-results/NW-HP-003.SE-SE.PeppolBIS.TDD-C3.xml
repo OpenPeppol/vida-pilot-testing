@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pxs:TaxData xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:pxs="urn:peppol:schema:vida-taxdata:1.0" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+  <cbc:CustomizationID>urn:peppol:taxdata:vida-1</cbc:CustomizationID>
+  <cbc:ProfileID>urn:peppol:taxreporting</cbc:ProfileID>
+  <cbc:UUID>62933cf4-7d51-4704-88f7-0e49636cf800</cbc:UUID>
+  <cbc:IssueDate>2026-11-19</cbc:IssueDate>
+  <cbc:IssueTime>19:45:29.548+01:00</cbc:IssueTime>
+  <pxs:TaxDataTypeCode>S</pxs:TaxDataTypeCode>
+  <pxs:DocumentScope>D</pxs:DocumentScope>
+  <pxs:ReporterRole>C3</pxs:ReporterRole>
+  <pxs:TaxAuthority>
+    <cbc:ID>SE</cbc:ID>
+    <cbc:Name>Skatteverket</cbc:Name>
+  </pxs:TaxAuthority>
+  <pxs:ReportingParty>
+    <cbc:EndpointID schemeID="9913">001110-vidapilot.se553456789101</cbc:EndpointID>
+  </pxs:ReportingParty>
+  <pxs:ReceivingParty>
+    <cbc:EndpointID schemeID="0242">000969-vidapilot.tax_se</cbc:EndpointID>
+  </pxs:ReceivingParty>
+  <pxs:ReportersRepresentative>
+    <cac:PartyIdentification>
+      <cbc:ID schemeID="0242">001110-vidapilot</cbc:ID>
+    </cac:PartyIdentification>
+  </pxs:ReportersRepresentative>
+  <pxs:ReportedTransaction>
+    <pxs:TransmissionUUID>dce5f225-799b-5edf-a1d9-b2223406a7f7</pxs:TransmissionUUID>
+    <pxs:ReportedDocument>
+      <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+      <cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
+      <cbc:ID>NW-HP-003 - SE-SE</cbc:ID>
+      <cbc:UUID>229189d4-23f2-5bd9-a345-a17df29ac8dd</cbc:UUID>
+      <cbc:IssueDate>2026-02-10</cbc:IssueDate>
+      <pxs:DocumentTypeCode>380</pxs:DocumentTypeCode>
+      <cbc:Note>FICTITIOUS INVOICE - DO NOT PAY - DO NOT USE IN TAX RETURNS!
+This is a generic sample invoice to cover a "regular" domestic invoicing use case, applying the ViDA reporting rules as if they were national law.
+As such, the seller and buyer are located in the same EU member state.</cbc:Note>
+      <cbc:DocumentCurrencyCode>SEK</cbc:DocumentCurrencyCode>
+      <cac:AccountingSupplierParty>
+        <cac:Party>
+          <cac:PostalAddress>
+            <cac:Country>
+              <cbc:IdentificationCode>SE</cbc:IdentificationCode>
+            </cac:Country>
+          </cac:PostalAddress>
+          <cac:PartyTaxScheme>
+            <cbc:CompanyID>SE556123456701</cbc:CompanyID>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:PartyTaxScheme>
+        </cac:Party>
+      </cac:AccountingSupplierParty>
+      <cac:AccountingCustomerParty>
+        <cac:Party>
+          <cac:PostalAddress>
+            <cac:Country>
+              <cbc:IdentificationCode>SE</cbc:IdentificationCode>
+            </cac:Country>
+          </cac:PostalAddress>
+          <cac:PartyTaxScheme>
+            <cbc:CompanyID>SE553456789101</cbc:CompanyID>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:PartyTaxScheme>
+          <cac:PartyLegalEntity>
+            <cbc:RegistrationName>Köpare Sverige AB</cbc:RegistrationName>
+          </cac:PartyLegalEntity>
+        </cac:Party>
+      </cac:AccountingCustomerParty>
+      <cac:Delivery>
+        <cbc:ActualDeliveryDate>2026-01-31</cbc:ActualDeliveryDate>
+      </cac:Delivery>
+      <cac:TaxTotal>
+        <cbc:TaxAmount currencyID="SEK">3967.39</cbc:TaxAmount>
+        <cac:TaxSubtotal>
+          <cbc:TaxableAmount currencyID="SEK">286</cbc:TaxableAmount>
+          <cbc:TaxAmount currencyID="SEK">0</cbc:TaxAmount>
+          <cac:TaxCategory>
+            <cbc:ID>E</cbc:ID>
+            <cbc:Percent>0</cbc:Percent>
+            <cbc:TaxExemptionReason>National exemption - no VATEX-EU-** code available</cbc:TaxExemptionReason>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:TaxCategory>
+        </cac:TaxSubtotal>
+        <cac:TaxSubtotal>
+          <cbc:TaxableAmount currencyID="SEK">12943</cbc:TaxableAmount>
+          <cbc:TaxAmount currencyID="SEK">3235.75</cbc:TaxAmount>
+          <cac:TaxCategory>
+            <cbc:ID>S</cbc:ID>
+            <cbc:Percent>25</cbc:Percent>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:TaxCategory>
+        </cac:TaxSubtotal>
+        <cac:TaxSubtotal>
+          <cbc:TaxableAmount currencyID="SEK">777.91</cbc:TaxableAmount>
+          <cbc:TaxAmount currencyID="SEK">0</cbc:TaxAmount>
+          <cac:TaxCategory>
+            <cbc:ID>Z</cbc:ID>
+            <cbc:Percent>0</cbc:Percent>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:TaxCategory>
+        </cac:TaxSubtotal>
+        <cac:TaxSubtotal>
+          <cbc:TaxableAmount currencyID="SEK">6097</cbc:TaxableAmount>
+          <cbc:TaxAmount currencyID="SEK">731.64</cbc:TaxAmount>
+          <cac:TaxCategory>
+            <cbc:ID>S</cbc:ID>
+            <cbc:Percent>12</cbc:Percent>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:TaxCategory>
+        </cac:TaxSubtotal>
+      </cac:TaxTotal>
+      <pxs:MonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="SEK">20103.91</cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="SEK">20103.91</cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="SEK">24071.3</cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="SEK">24071.3</cbc:PayableAmount>
+      </pxs:MonetaryTotal>
+      <pxs:DocumentLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="H87">3</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="SEK">3063</cbc:LineExtensionAmount>
+        <cac:Item>
+          <cbc:Description>This Great Good is invoiced with a standard national VAT rate and "S" tax code.</cbc:Description>
+          <cbc:Name>Great Good (standard VAT rate - Code S, normal rate)</cbc:Name>
+          <cac:ClassifiedTaxCategory>
+            <cbc:ID>S</cbc:ID>
+            <cbc:Percent>25</cbc:Percent>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:ClassifiedTaxCategory>
+        </cac:Item>
+        <cac:Price>
+          <cbc:PriceAmount currencyID="SEK">1021</cbc:PriceAmount>
+        </cac:Price>
+      </pxs:DocumentLine>
+      <pxs:DocumentLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="H87">7</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="SEK">6097</cbc:LineExtensionAmount>
+        <cac:Item>
+          <cbc:Description>Another Great Good is invoiced with a reduced national VAT rate and "S" tax code.</cbc:Description>
+          <cbc:Name>Another Great Good (standard VAT rate - Code S, reduced rate)</cbc:Name>
+          <cac:ClassifiedTaxCategory>
+            <cbc:ID>S</cbc:ID>
+            <cbc:Percent>12</cbc:Percent>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:ClassifiedTaxCategory>
+        </cac:Item>
+        <cac:Price>
+          <cbc:PriceAmount currencyID="SEK">871</cbc:PriceAmount>
+        </cac:Price>
+      </pxs:DocumentLine>
+      <pxs:DocumentLine>
+        <cbc:ID>3</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="HUR">8</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="SEK">9880</cbc:LineExtensionAmount>
+        <cac:Item>
+          <cbc:Description>This Super Service is invoiced with a standard VAT rate domestically.</cbc:Description>
+          <cbc:Name>Super Service (std rate VAT)</cbc:Name>
+          <cac:ClassifiedTaxCategory>
+            <cbc:ID>S</cbc:ID>
+            <cbc:Percent>25</cbc:Percent>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:ClassifiedTaxCategory>
+        </cac:Item>
+        <cac:Price>
+          <cbc:PriceAmount currencyID="SEK">1235</cbc:PriceAmount>
+        </cac:Price>
+      </pxs:DocumentLine>
+      <pxs:DocumentLine>
+        <cbc:ID>4</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="H87">13</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="SEK">286</cbc:LineExtensionAmount>
+        <cac:Item>
+          <cbc:Description>Postage stamps sold at face value are often exempt from national VAT rate and therefore use "E" tax code.</cbc:Description>
+          <cbc:Name>Exempt postage stamps (exempt from VAT - Code E, rate 0)</cbc:Name>
+          <cac:ClassifiedTaxCategory>
+            <cbc:ID>E</cbc:ID>
+            <cbc:Percent>0</cbc:Percent>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:ClassifiedTaxCategory>
+        </cac:Item>
+        <cac:Price>
+          <cbc:PriceAmount currencyID="SEK">22</cbc:PriceAmount>
+        </cac:Price>
+      </pxs:DocumentLine>
+      <pxs:DocumentLine>
+        <cbc:ID>5</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="H87">7</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="SEK">777.91</cbc:LineExtensionAmount>
+        <cac:Item>
+          <cbc:Description>Printed or electronic newspapers may be zero-rated VAT in some member states.
+Used by example only in this invoice</cbc:Description>
+          <cbc:Name>Zero-rated newspaper (taxed at 0%)</cbc:Name>
+          <cac:ClassifiedTaxCategory>
+            <cbc:ID>Z</cbc:ID>
+            <cbc:Percent>0</cbc:Percent>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:ClassifiedTaxCategory>
+        </cac:Item>
+        <cac:Price>
+          <cbc:PriceAmount currencyID="SEK">111.13</cbc:PriceAmount>
+        </cac:Price>
+      </pxs:DocumentLine>
+    </pxs:ReportedDocument>
+  </pxs:ReportedTransaction>
+</pxs:TaxData>

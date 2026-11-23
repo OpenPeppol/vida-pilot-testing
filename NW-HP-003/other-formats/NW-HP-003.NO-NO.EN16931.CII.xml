@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rsm:CrossIndustryInvoice xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100" xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100" xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100" xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100">
+	<rsm:ExchangedDocumentContext>
+		<ram:BusinessProcessSpecifiedDocumentContextParameter>
+			<ram:ID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</ram:ID>
+		</ram:BusinessProcessSpecifiedDocumentContextParameter>
+		<ram:GuidelineSpecifiedDocumentContextParameter>
+			<ram:ID>urn:cen.eu:en16931:2017</ram:ID>
+		</ram:GuidelineSpecifiedDocumentContextParameter>
+	</rsm:ExchangedDocumentContext>
+	<rsm:ExchangedDocument>
+		<ram:ID>NW-HP-003 - NO-NO</ram:ID>
+		<ram:TypeCode>380</ram:TypeCode>
+		<ram:IssueDateTime>
+			<udt:DateTimeString format="102">20260210</udt:DateTimeString>
+		</ram:IssueDateTime>
+		<ram:IncludedNote>
+			<ram:Content>FICTITIOUS INVOICE - DO NOT PAY - DO NOT USE IN TAX RETURNS!
+This is a generic sample invoice to cover a "regular" domestic invoicing use case, applying the ViDA reporting rules as if they were national law.
+As such, the seller and buyer are located in the same EU member state.</ram:Content>
+		</ram:IncludedNote>
+	</rsm:ExchangedDocument>
+	<rsm:SupplyChainTradeTransaction>
+		<ram:IncludedSupplyChainTradeLineItem>
+			<ram:AssociatedDocumentLineDocument>
+				<ram:LineID>1</ram:LineID>
+			</ram:AssociatedDocumentLineDocument>
+			<ram:SpecifiedTradeProduct>
+				<ram:SellerAssignedID>GG-200124</ram:SellerAssignedID>
+				<ram:BuyerAssignedID>Buyer SKU not known</ram:BuyerAssignedID>
+				<ram:Name>Great Good (standard VAT rate - Code S, normal rate)</ram:Name>
+				<ram:Description>This Great Good is invoiced with a standard national VAT rate and "S" tax code.</ram:Description>
+			</ram:SpecifiedTradeProduct>
+			<ram:SpecifiedLineTradeAgreement>
+				<ram:NetPriceProductTradePrice>
+					<ram:ChargeAmount>1021.00</ram:ChargeAmount>
+					<ram:BasisQuantity unitCode="H87">1</ram:BasisQuantity>
+				</ram:NetPriceProductTradePrice>
+			</ram:SpecifiedLineTradeAgreement>
+			<ram:SpecifiedLineTradeDelivery>
+				<ram:BilledQuantity unitCode="H87">3</ram:BilledQuantity>
+			</ram:SpecifiedLineTradeDelivery>
+			<ram:SpecifiedLineTradeSettlement>
+				<ram:ApplicableTradeTax>
+					<ram:TypeCode>VAT</ram:TypeCode>
+					<ram:CategoryCode>S</ram:CategoryCode>
+					<ram:RateApplicablePercent>20</ram:RateApplicablePercent>
+				</ram:ApplicableTradeTax>
+				<ram:SpecifiedTradeSettlementLineMonetarySummation>
+					<ram:LineTotalAmount>3063.00</ram:LineTotalAmount>
+				</ram:SpecifiedTradeSettlementLineMonetarySummation>
+			</ram:SpecifiedLineTradeSettlement>
+		</ram:IncludedSupplyChainTradeLineItem>
+		<ram:IncludedSupplyChainTradeLineItem>
+			<ram:AssociatedDocumentLineDocument>
+				<ram:LineID>2</ram:LineID>
+			</ram:AssociatedDocumentLineDocument>
+			<ram:SpecifiedTradeProduct>
+				<ram:SellerAssignedID>GG-200993-SR</ram:SellerAssignedID>
+				<ram:BuyerAssignedID>Buyer SKU not known</ram:BuyerAssignedID>
+				<ram:Name>Another Great Good (standard VAT rate - Code S, reduced rate)</ram:Name>
+				<ram:Description>Another Great Good is invoiced with a reduced national VAT rate and "S" tax code.</ram:Description>
+			</ram:SpecifiedTradeProduct>
+			<ram:SpecifiedLineTradeAgreement>
+				<ram:NetPriceProductTradePrice>
+					<ram:ChargeAmount>871.00</ram:ChargeAmount>
+					<ram:BasisQuantity unitCode="H87">1</ram:BasisQuantity>
+				</ram:NetPriceProductTradePrice>
+			</ram:SpecifiedLineTradeAgreement>
+			<ram:SpecifiedLineTradeDelivery>
+				<ram:BilledQuantity unitCode="H87">7</ram:BilledQuantity>
+			</ram:SpecifiedLineTradeDelivery>
+			<ram:SpecifiedLineTradeSettlement>
+				<ram:ApplicableTradeTax>
+					<ram:TypeCode>VAT</ram:TypeCode>
+					<ram:CategoryCode>S</ram:CategoryCode>
+					<ram:RateApplicablePercent>10</ram:RateApplicablePercent>
+				</ram:ApplicableTradeTax>
+				<ram:SpecifiedTradeSettlementLineMonetarySummation>
+					<ram:LineTotalAmount>6097.00</ram:LineTotalAmount>
+				</ram:SpecifiedTradeSettlementLineMonetarySummation>
+			</ram:SpecifiedLineTradeSettlement>
+		</ram:IncludedSupplyChainTradeLineItem>
+		<ram:IncludedSupplyChainTradeLineItem>
+			<ram:AssociatedDocumentLineDocument>
+				<ram:LineID>3</ram:LineID>
+			</ram:AssociatedDocumentLineDocument>
+			<ram:SpecifiedTradeProduct>
+				<ram:SellerAssignedID>SS-StdVAT-220123</ram:SellerAssignedID>
+				<ram:BuyerAssignedID>Buyer SKU not known</ram:BuyerAssignedID>
+				<ram:Name>Super Service (std rate VAT)</ram:Name>
+				<ram:Description>This Super Service is invoiced with a standard VAT rate domestically.</ram:Description>
+			</ram:SpecifiedTradeProduct>
+			<ram:SpecifiedLineTradeAgreement>
+				<ram:NetPriceProductTradePrice>
+					<ram:ChargeAmount>1237.00</ram:ChargeAmount>
+					<ram:BasisQuantity unitCode="HUR">1</ram:BasisQuantity>
+				</ram:NetPriceProductTradePrice>
+			</ram:SpecifiedLineTradeAgreement>
+			<ram:SpecifiedLineTradeDelivery>
+				<ram:BilledQuantity unitCode="HUR">8</ram:BilledQuantity>
+			</ram:SpecifiedLineTradeDelivery>
+			<ram:SpecifiedLineTradeSettlement>
+				<ram:ApplicableTradeTax>
+					<ram:TypeCode>VAT</ram:TypeCode>
+					<ram:CategoryCode>S</ram:CategoryCode>
+					<ram:RateApplicablePercent>20</ram:RateApplicablePercent>
+				</ram:ApplicableTradeTax>
+				<ram:SpecifiedTradeSettlementLineMonetarySummation>
+					<ram:LineTotalAmount>9896.00</ram:LineTotalAmount>
+				</ram:SpecifiedTradeSettlementLineMonetarySummation>
+			</ram:SpecifiedLineTradeSettlement>
+		</ram:IncludedSupplyChainTradeLineItem>
+		<ram:IncludedSupplyChainTradeLineItem>
+			<ram:AssociatedDocumentLineDocument>
+				<ram:LineID>4</ram:LineID>
+			</ram:AssociatedDocumentLineDocument>
+			<ram:SpecifiedTradeProduct>
+				<ram:SellerAssignedID>PS-200993-EX</ram:SellerAssignedID>
+				<ram:BuyerAssignedID>Buyer SK not known</ram:BuyerAssignedID>
+				<ram:Name>Exempt postage stamps (exempt from VAT - Code E, rate 0)</ram:Name>
+				<ram:Description>Postage stamps sold at face value are often exempt from national VAT rate and therefore use "E" tax code.</ram:Description>
+			</ram:SpecifiedTradeProduct>
+			<ram:SpecifiedLineTradeAgreement>
+				<ram:NetPriceProductTradePrice>
+					<ram:ChargeAmount>28.00</ram:ChargeAmount>
+					<ram:BasisQuantity unitCode="H87">1</ram:BasisQuantity>
+				</ram:NetPriceProductTradePrice>
+			</ram:SpecifiedLineTradeAgreement>
+			<ram:SpecifiedLineTradeDelivery>
+				<ram:BilledQuantity unitCode="H87">13</ram:BilledQuantity>
+			</ram:SpecifiedLineTradeDelivery>
+			<ram:SpecifiedLineTradeSettlement>
+				<ram:ApplicableTradeTax>
+					<ram:TypeCode>VAT</ram:TypeCode>
+					<ram:CategoryCode>E</ram:CategoryCode>
+					<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
+				</ram:ApplicableTradeTax>
+				<ram:SpecifiedTradeSettlementLineMonetarySummation>
+					<ram:LineTotalAmount>364.00</ram:LineTotalAmount>
+				</ram:SpecifiedTradeSettlementLineMonetarySummation>
+			</ram:SpecifiedLineTradeSettlement>
+		</ram:IncludedSupplyChainTradeLineItem>
+		<ram:IncludedSupplyChainTradeLineItem>
+			<ram:AssociatedDocumentLineDocument>
+				<ram:LineID>5</ram:LineID>
+			</ram:AssociatedDocumentLineDocument>
+			<ram:SpecifiedTradeProduct>
+				<ram:SellerAssignedID>ZR-0122231</ram:SellerAssignedID>
+				<ram:BuyerAssignedID>Buyer SKU not known</ram:BuyerAssignedID>
+				<ram:Name>Zero-rated newspaper (taxed at 0%)</ram:Name>
+				<ram:Description>Printed or electronic newspapers may be zero-rated VAT in some member states.
+Used by example only in this invoice</ram:Description>
+			</ram:SpecifiedTradeProduct>
+			<ram:SpecifiedLineTradeAgreement>
+				<ram:NetPriceProductTradePrice>
+					<ram:ChargeAmount>111.13</ram:ChargeAmount>
+					<ram:BasisQuantity unitCode="H87">1</ram:BasisQuantity>
+				</ram:NetPriceProductTradePrice>
+			</ram:SpecifiedLineTradeAgreement>
+			<ram:SpecifiedLineTradeDelivery>
+				<ram:BilledQuantity unitCode="H87">7</ram:BilledQuantity>
+			</ram:SpecifiedLineTradeDelivery>
+			<ram:SpecifiedLineTradeSettlement>
+				<ram:ApplicableTradeTax>
+					<ram:TypeCode>VAT</ram:TypeCode>
+					<ram:CategoryCode>Z</ram:CategoryCode>
+					<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
+				</ram:ApplicableTradeTax>
+				<ram:SpecifiedTradeSettlementLineMonetarySummation>
+					<ram:LineTotalAmount>777.91</ram:LineTotalAmount>
+				</ram:SpecifiedTradeSettlementLineMonetarySummation>
+			</ram:SpecifiedLineTradeSettlement>
+		</ram:IncludedSupplyChainTradeLineItem>
+		<ram:ApplicableHeaderTradeAgreement>
+			<ram:BuyerReference>your buyer reference</ram:BuyerReference>
+			<ram:SellerTradeParty>
+				<ram:ID>9876-444444</ram:ID>
+				<ram:Name>Norge Salg AS</ram:Name>
+				<ram:SpecifiedLegalOrganization>
+					<ram:TradingBusinessName>Norge Salg</ram:TradingBusinessName>
+				</ram:SpecifiedLegalOrganization>
+				<ram:DefinedTradeContact>
+					<ram:PersonName>Lars Hansen</ram:PersonName>
+					<ram:TelephoneUniversalCommunication>
+						<ram:CompleteNumber>+358 9 555 1234</ram:CompleteNumber>
+					</ram:TelephoneUniversalCommunication>
+					<ram:EmailURIUniversalCommunication>
+						<ram:URIID>lars.hansen@norge-salg.no</ram:URIID>
+					</ram:EmailURIUniversalCommunication>
+				</ram:DefinedTradeContact>
+				<ram:PostalTradeAddress>
+					<ram:PostcodeCode>0154</ram:PostcodeCode>
+					<ram:LineOne>Karl Johans gate 15</ram:LineOne>
+					<ram:CityName>Oslo</ram:CityName>
+					<ram:CountryID>NO</ram:CountryID>
+				</ram:PostalTradeAddress>
+				<ram:URIUniversalCommunication>
+					<ram:URIID schemeID="9913">001109-vidapilot.NO123456785MVA</ram:URIID>
+				</ram:URIUniversalCommunication>
+				<ram:SpecifiedTaxRegistration>
+					<ram:ID schemeID="VA">NO123456785MVA</ram:ID>
+				</ram:SpecifiedTaxRegistration>
+				<ram:SpecifiedTaxRegistration>
+					<ram:ID schemeID="TAX">Foretaksregisteret</ram:ID>
+				</ram:SpecifiedTaxRegistration>
+			</ram:SellerTradeParty>
+			<ram:BuyerTradeParty>
+				<ram:Name>Kjøper Norge AS</ram:Name>
+				<ram:SpecifiedLegalOrganization>
+					<ram:TradingBusinessName>Kjøper Norge</ram:TradingBusinessName>
+				</ram:SpecifiedLegalOrganization>
+				<ram:DefinedTradeContact>
+					<ram:PersonName>Lars Eriksen</ram:PersonName>
+					<ram:TelephoneUniversalCommunication>
+						<ram:CompleteNumber>+47 22 345678</ram:CompleteNumber>
+					</ram:TelephoneUniversalCommunication>
+					<ram:EmailURIUniversalCommunication>
+						<ram:URIID>l.eriksen@kjoper-norge.no</ram:URIID>
+					</ram:EmailURIUniversalCommunication>
+				</ram:DefinedTradeContact>
+				<ram:PostalTradeAddress>
+					<ram:PostcodeCode>0159</ram:PostcodeCode>
+					<ram:LineOne>Karl Johans gate 25</ram:LineOne>
+					<ram:CityName>Oslo</ram:CityName>
+					<ram:CountryID>NO</ram:CountryID>
+				</ram:PostalTradeAddress>
+				<ram:URIUniversalCommunication>
+					<ram:URIID schemeID="9913">001110-vidapilot.NO234567896MVA</ram:URIID>
+				</ram:URIUniversalCommunication>
+				<ram:SpecifiedTaxRegistration>
+					<ram:ID schemeID="VA">NO234567896MVA</ram:ID>
+				</ram:SpecifiedTaxRegistration>
+			</ram:BuyerTradeParty>
+			<ram:SellerOrderReferencedDocument>
+				<ram:IssuerAssignedID>Order #456789</ram:IssuerAssignedID>
+			</ram:SellerOrderReferencedDocument>
+			<ram:BuyerOrderReferencedDocument>
+				<ram:IssuerAssignedID>PO-54321</ram:IssuerAssignedID>
+			</ram:BuyerOrderReferencedDocument>
+			<ram:ContractReferencedDocument>
+				<ram:IssuerAssignedID>Contract ABC</ram:IssuerAssignedID>
+			</ram:ContractReferencedDocument>
+			<ram:SpecifiedProcuringProject>
+				<ram:ID>Project #12345</ram:ID>
+				<ram:Name>?</ram:Name>
+			</ram:SpecifiedProcuringProject>
+		</ram:ApplicableHeaderTradeAgreement>
+		<ram:ApplicableHeaderTradeDelivery>
+			<ram:ShipToTradeParty>
+				<ram:Name>Kjøper Norge AS</ram:Name>
+				<ram:PostalTradeAddress>
+					<ram:PostcodeCode>0159</ram:PostcodeCode>
+					<ram:LineOne>Karl Johans gate 25</ram:LineOne>
+					<ram:CityName>Oslo</ram:CityName>
+					<ram:CountryID>NO</ram:CountryID>
+				</ram:PostalTradeAddress>
+			</ram:ShipToTradeParty>
+			<ram:ActualDeliverySupplyChainEvent>
+				<ram:OccurrenceDateTime>
+					<udt:DateTimeString format="102">20260131</udt:DateTimeString>
+				</ram:OccurrenceDateTime>
+			</ram:ActualDeliverySupplyChainEvent>
+		</ram:ApplicableHeaderTradeDelivery>
+		<ram:ApplicableHeaderTradeSettlement>
+			<ram:InvoiceCurrencyCode>NOK</ram:InvoiceCurrencyCode>
+			<ram:SpecifiedTradeSettlementPaymentMeans>
+				<ram:TypeCode>58</ram:TypeCode>
+				<ram:Information>SEPA credit transfer</ram:Information>
+				<ram:PayeePartyCreditorFinancialAccount>
+					<ram:IBANID>NO5015032080119</ram:IBANID>
+					<ram:AccountName>Norge Salg AS</ram:AccountName>
+				</ram:PayeePartyCreditorFinancialAccount>
+			</ram:SpecifiedTradeSettlementPaymentMeans>
+			<ram:ApplicableTradeTax>
+				<ram:CalculatedAmount>2591.80</ram:CalculatedAmount>
+				<ram:TypeCode>VAT</ram:TypeCode>
+				<ram:BasisAmount>12959.00</ram:BasisAmount>
+				<ram:CategoryCode>S</ram:CategoryCode>
+				<ram:RateApplicablePercent>20</ram:RateApplicablePercent>
+			</ram:ApplicableTradeTax>
+			<ram:ApplicableTradeTax>
+				<ram:CalculatedAmount>609.70</ram:CalculatedAmount>
+				<ram:TypeCode>VAT</ram:TypeCode>
+				<ram:BasisAmount>6097.00</ram:BasisAmount>
+				<ram:CategoryCode>S</ram:CategoryCode>
+				<ram:RateApplicablePercent>10</ram:RateApplicablePercent>
+			</ram:ApplicableTradeTax>
+			<ram:ApplicableTradeTax>
+				<ram:CalculatedAmount>0.00</ram:CalculatedAmount>
+				<ram:TypeCode>VAT</ram:TypeCode>
+				<ram:ExemptionReason>National exemption - no VATEX-EU-** code available</ram:ExemptionReason>
+				<ram:BasisAmount>364.00</ram:BasisAmount>
+				<ram:CategoryCode>E</ram:CategoryCode>
+				<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
+			</ram:ApplicableTradeTax>
+			<ram:ApplicableTradeTax>
+				<ram:CalculatedAmount>0.00</ram:CalculatedAmount>
+				<ram:TypeCode>VAT</ram:TypeCode>
+				<ram:BasisAmount>777.91</ram:BasisAmount>
+				<ram:CategoryCode>Z</ram:CategoryCode>
+				<ram:RateApplicablePercent>0</ram:RateApplicablePercent>
+			</ram:ApplicableTradeTax>
+			<ram:SpecifiedTradePaymentTerms>
+				<ram:Description>Please remit your payment of 23.399,41 kr before 12.03.2026.</ram:Description>
+				<ram:DueDateDateTime>
+					<udt:DateTimeString format="102">20260312</udt:DateTimeString>
+				</ram:DueDateDateTime>
+			</ram:SpecifiedTradePaymentTerms>
+			<ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+				<ram:LineTotalAmount>20197.91</ram:LineTotalAmount>
+				<ram:TaxBasisTotalAmount>20197.91</ram:TaxBasisTotalAmount>
+				<ram:TaxTotalAmount currencyID="NOK">3201.50</ram:TaxTotalAmount>
+				<ram:GrandTotalAmount>23399.41</ram:GrandTotalAmount>
+				<ram:DuePayableAmount>23399.41</ram:DuePayableAmount>
+			</ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+		</ram:ApplicableHeaderTradeSettlement>
+	</rsm:SupplyChainTradeTransaction>
+</rsm:CrossIndustryInvoice>

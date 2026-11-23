@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pxs:TaxData xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:pxs="urn:peppol:schema:vida-taxdata:1.0" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+  <cbc:CustomizationID>urn:peppol:taxdata:vida-1</cbc:CustomizationID>
+  <cbc:ProfileID>urn:peppol:taxreporting</cbc:ProfileID>
+  <cbc:UUID>a9af88bc-caaa-447e-a227-d3e8e839cdc7</cbc:UUID>
+  <cbc:IssueDate>2026-11-19</cbc:IssueDate>
+  <cbc:IssueTime>19:45:32.22+01:00</cbc:IssueTime>
+  <pxs:TaxDataTypeCode>S</pxs:TaxDataTypeCode>
+  <pxs:DocumentScope>D</pxs:DocumentScope>
+  <pxs:ReporterRole>C3</pxs:ReporterRole>
+  <pxs:TaxAuthority>
+    <cbc:ID>FI</cbc:ID>
+    <cbc:Name>Verohallinto / Skatteförvaltningen</cbc:Name>
+  </pxs:TaxAuthority>
+  <pxs:ReportingParty>
+    <cbc:EndpointID schemeID="9913">001110-vidapilot.fi12345671</cbc:EndpointID>
+  </pxs:ReportingParty>
+  <pxs:ReceivingParty>
+    <cbc:EndpointID schemeID="0242">001111-vidapilot.tax_fi</cbc:EndpointID>
+  </pxs:ReceivingParty>
+  <pxs:ReportersRepresentative>
+    <cac:PartyIdentification>
+      <cbc:ID schemeID="0242">001110-vidapilot</cbc:ID>
+    </cac:PartyIdentification>
+  </pxs:ReportersRepresentative>
+  <pxs:ReportedTransaction>
+    <pxs:TransmissionUUID>dce5f225-799b-5edf-a1d9-b2223406a7f7</pxs:TransmissionUUID>
+    <pxs:ReportedDocument>
+      <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+      <cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
+      <cbc:ID>NW-HP-003 - FI-FI</cbc:ID>
+      <cbc:UUID>9ce1418d-48d6-5529-9996-74a1c79437d7</cbc:UUID>
+      <cbc:IssueDate>2026-02-10</cbc:IssueDate>
+      <pxs:DocumentTypeCode>380</pxs:DocumentTypeCode>
+      <cbc:Note>FICTITIOUS INVOICE - DO NOT PAY - DO NOT USE IN TAX RETURNS!
+This is a generic sample invoice to cover a "regular" domestic invoicing use case, applying the ViDA reporting rules as if they were national law.
+As such, the seller and buyer are located in the same EU member state.</cbc:Note>
+      <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+      <cac:AccountingSupplierParty>
+        <cac:Party>
+          <cac:PostalAddress>
+            <cac:Country>
+              <cbc:IdentificationCode>FI</cbc:IdentificationCode>
+            </cac:Country>
+          </cac:PostalAddress>
+          <cac:PartyTaxScheme>
+            <cbc:CompanyID>FI12345678</cbc:CompanyID>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:PartyTaxScheme>
+        </cac:Party>
+      </cac:AccountingSupplierParty>
+      <cac:AccountingCustomerParty>
+        <cac:Party>
+          <cac:PostalAddress>
+            <cac:Country>
+              <cbc:IdentificationCode>FI</cbc:IdentificationCode>
+            </cac:Country>
+          </cac:PostalAddress>
+          <cac:PartyTaxScheme>
+            <cbc:CompanyID>FI12345671</cbc:CompanyID>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:PartyTaxScheme>
+          <cac:PartyLegalEntity>
+            <cbc:RegistrationName>Ostaja Finland Oy</cbc:RegistrationName>
+          </cac:PartyLegalEntity>
+        </cac:Party>
+      </cac:AccountingCustomerParty>
+      <cac:Delivery>
+        <cbc:ActualDeliveryDate>2026-01-31</cbc:ActualDeliveryDate>
+      </cac:Delivery>
+      <cac:TaxTotal>
+        <cbc:TaxAmount currencyID="EUR">318.9</cbc:TaxAmount>
+        <cac:TaxSubtotal>
+          <cbc:TaxableAmount currencyID="EUR">1290</cbc:TaxableAmount>
+          <cbc:TaxAmount currencyID="EUR">258</cbc:TaxAmount>
+          <cac:TaxCategory>
+            <cbc:ID>S</cbc:ID>
+            <cbc:Percent>20</cbc:Percent>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:TaxCategory>
+        </cac:TaxSubtotal>
+        <cac:TaxSubtotal>
+          <cbc:TaxableAmount currencyID="EUR">609</cbc:TaxableAmount>
+          <cbc:TaxAmount currencyID="EUR">60.9</cbc:TaxAmount>
+          <cac:TaxCategory>
+            <cbc:ID>S</cbc:ID>
+            <cbc:Percent>10</cbc:Percent>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:TaxCategory>
+        </cac:TaxSubtotal>
+        <cac:TaxSubtotal>
+          <cbc:TaxableAmount currencyID="EUR">19.5</cbc:TaxableAmount>
+          <cbc:TaxAmount currencyID="EUR">0</cbc:TaxAmount>
+          <cac:TaxCategory>
+            <cbc:ID>E</cbc:ID>
+            <cbc:Percent>0</cbc:Percent>
+            <cbc:TaxExemptionReason>National exemption - no VATEX-EU-** code available</cbc:TaxExemptionReason>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:TaxCategory>
+        </cac:TaxSubtotal>
+        <cac:TaxSubtotal>
+          <cbc:TaxableAmount currencyID="EUR">77.91</cbc:TaxableAmount>
+          <cbc:TaxAmount currencyID="EUR">0</cbc:TaxAmount>
+          <cac:TaxCategory>
+            <cbc:ID>Z</cbc:ID>
+            <cbc:Percent>0</cbc:Percent>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:TaxCategory>
+        </cac:TaxSubtotal>
+      </cac:TaxTotal>
+      <pxs:MonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="EUR">1996.41</cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="EUR">1996.41</cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="EUR">2315.31</cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="EUR">2315.31</cbc:PayableAmount>
+      </pxs:MonetaryTotal>
+      <pxs:DocumentLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="H87">3</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">306</cbc:LineExtensionAmount>
+        <cac:Item>
+          <cbc:Description>This Great Good is invoiced with a standard national VAT rate and "S" tax code.</cbc:Description>
+          <cbc:Name>Great Good (standard VAT rate - Code S, normal rate)</cbc:Name>
+          <cac:ClassifiedTaxCategory>
+            <cbc:ID>S</cbc:ID>
+            <cbc:Percent>20</cbc:Percent>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:ClassifiedTaxCategory>
+        </cac:Item>
+        <cac:Price>
+          <cbc:PriceAmount currencyID="EUR">102</cbc:PriceAmount>
+        </cac:Price>
+      </pxs:DocumentLine>
+      <pxs:DocumentLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="H87">7</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">609</cbc:LineExtensionAmount>
+        <cac:Item>
+          <cbc:Description>Another Great Good is invoiced with a reduced national VAT rate and "S" tax code.</cbc:Description>
+          <cbc:Name>Another Great Good (standard VAT rate - Code S, reduced rate)</cbc:Name>
+          <cac:ClassifiedTaxCategory>
+            <cbc:ID>S</cbc:ID>
+            <cbc:Percent>10</cbc:Percent>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:ClassifiedTaxCategory>
+        </cac:Item>
+        <cac:Price>
+          <cbc:PriceAmount currencyID="EUR">87</cbc:PriceAmount>
+        </cac:Price>
+      </pxs:DocumentLine>
+      <pxs:DocumentLine>
+        <cbc:ID>3</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="HUR">8</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">984</cbc:LineExtensionAmount>
+        <cac:Item>
+          <cbc:Description>This Super Service is invoiced with a standard VAT rate domestically.</cbc:Description>
+          <cbc:Name>Super Service (std rate VAT)</cbc:Name>
+          <cac:ClassifiedTaxCategory>
+            <cbc:ID>S</cbc:ID>
+            <cbc:Percent>20</cbc:Percent>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:ClassifiedTaxCategory>
+        </cac:Item>
+        <cac:Price>
+          <cbc:PriceAmount currencyID="EUR">123</cbc:PriceAmount>
+        </cac:Price>
+      </pxs:DocumentLine>
+      <pxs:DocumentLine>
+        <cbc:ID>4</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="H87">13</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">19.5</cbc:LineExtensionAmount>
+        <cac:Item>
+          <cbc:Description>Postage stamps sold at face value are often exempt from national VAT rate and therefore use "E" tax code.</cbc:Description>
+          <cbc:Name>Exempt postage stamps (exempt from VAT - Code E, rate 0)</cbc:Name>
+          <cac:ClassifiedTaxCategory>
+            <cbc:ID>E</cbc:ID>
+            <cbc:Percent>0</cbc:Percent>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:ClassifiedTaxCategory>
+        </cac:Item>
+        <cac:Price>
+          <cbc:PriceAmount currencyID="EUR">1.5</cbc:PriceAmount>
+        </cac:Price>
+      </pxs:DocumentLine>
+      <pxs:DocumentLine>
+        <cbc:ID>5</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="H87">7</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">77.91</cbc:LineExtensionAmount>
+        <cac:Item>
+          <cbc:Description>Printed or electronic newspapers may be zero-rated VAT in some member states.
+Used by example only in this invoice</cbc:Description>
+          <cbc:Name>Zero-rated newspaper (taxed at 0%)</cbc:Name>
+          <cac:ClassifiedTaxCategory>
+            <cbc:ID>Z</cbc:ID>
+            <cbc:Percent>0</cbc:Percent>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:ClassifiedTaxCategory>
+        </cac:Item>
+        <cac:Price>
+          <cbc:PriceAmount currencyID="EUR">11.13</cbc:PriceAmount>
+        </cac:Price>
+      </pxs:DocumentLine>
+    </pxs:ReportedDocument>
+  </pxs:ReportedTransaction>
+</pxs:TaxData>

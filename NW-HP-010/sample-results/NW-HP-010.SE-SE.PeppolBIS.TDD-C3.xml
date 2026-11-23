@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pxs:TaxData xmlns:pxs="urn:peppol:schema:vida-taxdata:1.0" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+  <cbc:CustomizationID>urn:peppol:taxdata:vida-1</cbc:CustomizationID>
+  <cbc:ProfileID>urn:peppol:taxreporting</cbc:ProfileID>
+  <cbc:UUID>4f60fa59-4e96-4a30-ac95-dad53d8ec5ad</cbc:UUID>
+  <cbc:IssueDate>2026-11-18</cbc:IssueDate>
+  <cbc:IssueTime>13:59:53.839+01:00</cbc:IssueTime>
+  <pxs:TaxDataTypeCode>S</pxs:TaxDataTypeCode>
+  <pxs:DocumentScope>D</pxs:DocumentScope>
+  <pxs:ReporterRole>C3</pxs:ReporterRole>
+  <pxs:TaxAuthority>
+    <cbc:ID>SE</cbc:ID>
+    <cbc:Name>Skatteverket</cbc:Name>
+  </pxs:TaxAuthority>
+  <pxs:ReportingParty>
+    <cbc:EndpointID schemeID="9913">001110-vidapilot.se553456789101</cbc:EndpointID>
+  </pxs:ReportingParty>
+  <pxs:ReceivingParty>
+    <cbc:EndpointID schemeID="0242">000969-vidapilot.tax_se</cbc:EndpointID>
+  </pxs:ReceivingParty>
+  <pxs:ReportersRepresentative>
+    <cac:PartyIdentification>
+      <cbc:ID schemeID="0242">001110-vidapilot</cbc:ID>
+    </cac:PartyIdentification>
+  </pxs:ReportersRepresentative>
+  <pxs:ReportedTransaction>
+    <pxs:TransmissionUUID>dce5f225-799b-5edf-a1d9-b2223406a7f7</pxs:TransmissionUUID>
+    <pxs:ReportedDocument>
+      <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+      <cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
+      <cbc:ID>NW-HP-010 - SE-SE</cbc:ID>
+      <cbc:UUID>04d0acf0-7cf9-504c-a1a9-7094ddea5170</cbc:UUID>
+      <cbc:IssueDate>2026-02-10</cbc:IssueDate>
+      <pxs:DocumentTypeCode>380</pxs:DocumentTypeCode>
+      <cbc:Note>FICTITIOUS INVOICE - DO NOT PAY - DO NOT USE IN TAX RETURNS!
+This is a generic sample invoice to cover a "regular" domestic invoicing use case, applying the ViDA reporting rules as if they were national law.
+As such, the seller and buyer are located in the same EU member state.</cbc:Note>
+      <cbc:DocumentCurrencyCode>SEK</cbc:DocumentCurrencyCode>
+      <cac:AccountingSupplierParty>
+        <cac:Party>
+          <cac:PostalAddress>
+            <cac:Country>
+              <cbc:IdentificationCode>SE</cbc:IdentificationCode>
+            </cac:Country>
+          </cac:PostalAddress>
+          <cac:PartyTaxScheme>
+            <cbc:CompanyID>SE556123456701</cbc:CompanyID>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:PartyTaxScheme>
+        </cac:Party>
+      </cac:AccountingSupplierParty>
+      <cac:AccountingCustomerParty>
+        <cac:Party>
+          <cac:PostalAddress>
+            <cac:Country>
+              <cbc:IdentificationCode>SE</cbc:IdentificationCode>
+            </cac:Country>
+          </cac:PostalAddress>
+          <cac:PartyTaxScheme>
+            <cbc:CompanyID>SE553456789101</cbc:CompanyID>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:PartyTaxScheme>
+          <cac:PartyLegalEntity>
+            <cbc:RegistrationName>Köpare Sverige AB</cbc:RegistrationName>
+          </cac:PartyLegalEntity>
+        </cac:Party>
+      </cac:AccountingCustomerParty>
+      <cac:Delivery>
+        <cbc:ActualDeliveryDate>2026-01-31</cbc:ActualDeliveryDate>
+      </cac:Delivery>
+      <cac:TaxTotal>
+        <cbc:TaxAmount currencyID="SEK">0</cbc:TaxAmount>
+        <cac:TaxSubtotal>
+          <cbc:TaxableAmount currencyID="SEK">7153</cbc:TaxableAmount>
+          <cbc:TaxAmount currencyID="SEK">0</cbc:TaxAmount>
+          <cac:TaxCategory>
+            <cbc:ID>AE</cbc:ID>
+            <cbc:Percent>0</cbc:Percent>
+            <cbc:TaxExemptionReasonCode>VATEX-EU-AE</cbc:TaxExemptionReasonCode>
+            <cbc:TaxExemptionReason>Construction service under domestic reverse charge</cbc:TaxExemptionReason>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:TaxCategory>
+        </cac:TaxSubtotal>
+      </cac:TaxTotal>
+      <pxs:MonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="SEK">7153</cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="SEK">7153</cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="SEK">7153</cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="SEK">7153</cbc:PayableAmount>
+      </pxs:MonetaryTotal>
+      <pxs:DocumentLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="H87">3</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="SEK">3156</cbc:LineExtensionAmount>
+        <cac:Item>
+          <cbc:Description>This construction supply is invoiced using national reverse charge at 0% VAT rate and "AE" tax code.</cbc:Description>
+          <cbc:Name>Super construction supply (reverse charge - Code AE, 0 rate)</cbc:Name>
+          <cac:ClassifiedTaxCategory>
+            <cbc:ID>AE</cbc:ID>
+            <cbc:Percent>0</cbc:Percent>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:ClassifiedTaxCategory>
+        </cac:Item>
+        <cac:Price>
+          <cbc:PriceAmount currencyID="SEK">1052</cbc:PriceAmount>
+        </cac:Price>
+      </pxs:DocumentLine>
+      <pxs:DocumentLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="H87">7</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="SEK">3997</cbc:LineExtensionAmount>
+        <cac:Item>
+          <cbc:Description>Also, this construction supply is invoiced using national reverse charge at 0% VAT rate and "AE" tax code.</cbc:Description>
+          <cbc:Name>Another super construction supply (reverse charge - Code AE, 0 rate)</cbc:Name>
+          <cac:ClassifiedTaxCategory>
+            <cbc:ID>AE</cbc:ID>
+            <cbc:Percent>0</cbc:Percent>
+            <cac:TaxScheme>
+              <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+          </cac:ClassifiedTaxCategory>
+        </cac:Item>
+        <cac:Price>
+          <cbc:PriceAmount currencyID="SEK">571</cbc:PriceAmount>
+        </cac:Price>
+      </pxs:DocumentLine>
+    </pxs:ReportedDocument>
+  </pxs:ReportedTransaction>
+</pxs:TaxData>
